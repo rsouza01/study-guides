@@ -3,7 +3,7 @@
 Oct 4, 2026 · @Rodrigo de Souza
 
 <p align="center">
-  <img src="moon_structure_banner.png" alt="Moon Structure Banner" height="250" />
+  <img src="moon_structure_banner.png" alt="Moon Structure Banner" height="300" />
 </p>
 
 ## Local build (with virtual environment)
