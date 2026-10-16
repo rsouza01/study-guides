@@ -1,5 +1,7 @@
 # Physics Self-Study Guides
 
+![Atomic Structure Banner](home_banner.jpeg)
+
 A set of detailed, multi-file study guides for self-directed study of the physics behind **stellar structure, compact objects, quantum field theory and QCD**, with the classical-mechanics, electrodynamics, thermodynamics and quantum-mechanics foundations they rest on.
 
 Each guide is a folder of Markdown files: an overview, one file per module, and an appendix. They are written to be used as **references and working plans**, not as textbooks: they tell you what to read in standard books, what to derive from scratch, which exercises to do (with expected results), and how to check that you actually learned it.

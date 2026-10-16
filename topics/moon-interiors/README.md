@@ -2,6 +2,10 @@
 
 Oct 4, 2026 · @Rodrigo de Souza
 
+<p align="center">
+  <img src="moon_structure_banner.png" alt="Moon Structure Banner" height="400" />
+</p>
+
 ## Local build (with virtual environment)
 
 ### Taskfile
