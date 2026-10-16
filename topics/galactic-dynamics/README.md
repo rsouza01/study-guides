@@ -1,6 +1,9 @@
 # Galactic Dynamics Study Program
 
----
+<p align="center">
+  <img src="galaxies.png" alt="Galactic Morphologies Banner" height="550" />
+</p>
+
 
 ## Badges
 
