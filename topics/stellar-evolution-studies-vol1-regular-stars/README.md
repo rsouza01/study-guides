@@ -2,6 +2,12 @@
 
 ---
 
+<p align="center">
+  <img src="Hertzsprung-Russell-diagram.png" alt="HR Diagram" height="500" />
+</p>
+
+
+
 ## Badges
 
 ![Python](https://img.shields.io/badge/python-3.12-blue?logo=python)
