@@ -1,6 +1,9 @@
 # Compact Objects Study Program (Volume 2): White Dwarfs and Neutron Stars
 
 ---
+<p align="center">
+  <img src="neutron-star-merger-caltech-credit-crop.jpg" alt="Neutron Star merger" height="550" />
+</p>
 
 ## Badges
 
