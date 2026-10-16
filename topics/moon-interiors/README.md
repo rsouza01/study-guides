@@ -2,6 +2,8 @@
 
 Oct 4, 2026 · @Rodrigo de Souza
 
+![Moon Structure Banner](moon_structure_banner.jpeg)
+
 ## Local build (with virtual environment)
 
 ### Taskfile
