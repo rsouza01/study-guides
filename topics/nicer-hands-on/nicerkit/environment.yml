@@ -1,0 +1,21 @@
+name: nicer
+channels: [conda-forge]
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - astropy
+  - astroquery>=0.4.10   # HEASARC TAP interface (Heasarc.query_region(position, catalog, radius))
+  - numba
+  - emcee
+  - tqdm
+  - corner
+  - dynesty
+  - pytest
+  - jupyter
+  - pip
+  - pip:
+      - pint-pulsar        # photonphase / timing models (Module 07)
+      - heasoftpy          # optional; requires a HEASoft installation

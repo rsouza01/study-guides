@@ -1,0 +1,12 @@
+numpy
+scipy
+matplotlib
+pandas
+astropy
+astroquery>=0.4.10
+numba
+emcee
+corner
+dynesty
+pytest
+tqdm
