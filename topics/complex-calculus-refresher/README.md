@@ -1,23 +1,40 @@
----
-title: "Complex Calculus Refresher: the prerequisites for Goldstein and Jackson"
-subtitle: "Ávila (primary) + Churchill & Brown (companion) · single-file edition, v1.0"
-author: "R. A. de Souza"
-date: "October 2026"
-geometry: "left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm"
-header-includes:
-  - \usepackage{amsmath}
-  - \usepackage{amssymb}
----
+# Complex Calculus Refresher: the prerequisites for Goldstein and Jackson
 
-# Complex Calculus Refresher
+*Ávila (primary) + Churchill & Brown (companion) · single-file edition, v1.0 · R. A. de Souza · October 2026*
 
 **Primary text:** Geraldo Ávila, *Variáveis Complexas e Aplicações*, 3ª ed. (the PDF from Prof. Toscano's course page).
 **Companion:** J. W. Brown & R. V. Churchill, *Complex Variables and Applications* (**chapter numbers below are valid for the 7th, 8th and 9th editions**; I deliberately cite chapters, not section numbers, which can shift between editions), for English vocabulary, extra worked examples and drill problems.
 **Scope:** *prerequisites only.* Everything that is not needed for Goldstein or Jackson (conformal mapping, Riemann surfaces, analytic continuation theory, the gamma function, fluid flow, the argument principle) is **parked** in Appendix A for a later, separate thread.
 **Budget:** 8 weeks × 3 to 4 h ≈ **28 hours** (core), +4 to 6 h for the two optional modules. Runs *in parallel* with Goldstein and Jackson as a side study.
-**Where the earlier version is:** it lived in your electrodynamics-guide conversation as `complex-analysis-roadmap.md` (v0.1 with 10 weeks, then v0.2 compressed to 7 weeks). This file replaces both: same spine, but now one self-contained document with the motivation, topic checklists, derivations to own, worked pointers, and **about 130 exercises with answers**.
+**Version history:** this single-file edition supersedes an earlier 10-week outline (v0.1) and a 7-week compression (v0.2). Same spine, now one self-contained document with the motivation, topic checklists, derivations to own, worked pointers, and **about 130 exercises with answers**.
 
-> **How the answers were checked.** Every numerical or closed-form answer in this file was verified by running it (contour integrals by numerical quadrature on the contour, real integrals with `mpmath`, the damped-oscillator Green function and the Kramers-Kronig relation by direct numerical integration). The checking script is in Appendix D, so you can rerun it. What I could **not** do: open Ávila's 30+ MB PDF (too large for my tools). The page numbers below come from the table of contents you attached in the earlier chat; **do Task 0** to confirm them against your copy.
+> **How the answers were checked.** Every numerical or closed-form answer in this file was verified by running it (contour integrals by numerical quadrature on the contour, real integrals with `mpmath`, the damped-oscillator Green function and the Kramers-Kronig relation by direct numerical integration). The checking script is in Appendix D, so you can rerun it. What I could **not** do: open Ávila's 30+ MB PDF (too large for my tools). The page numbers below come from the table of contents of the author's copy; **do Task 0** to confirm them against yours.
+
+---
+
+## Contents
+
+- [0. Why this exists and what it must deliver](#0-why-this-exists-and-what-it-must-deliver)
+- [1. Working conventions](#1-working-conventions)
+- [2. Study plan and triage](#2-study-plan-and-triage)
+- [Module 0. Prerequisites and diagnostic](#module-0-prerequisites-and-diagnostic)
+- [Module 1. Complex numbers (Week 1, part 1)](#module-1-complex-numbers-week-1-part-1)
+- [Module 2. Functions, limits, analyticity, Cauchy-Riemann (Week 1, part 2)](#module-2-functions-limits-analyticity-cauchy-riemann-week-1-part-2)
+- [Module 3. Elementary functions, the logarithm, branches (Week 2)](#module-3-elementary-functions-the-logarithm-branches-week-2)
+- [Module 4. Contour integrals and Cauchy's theorem (Week 3)](#module-4-contour-integrals-and-cauchys-theorem-week-3)
+- [Module 5. Cauchy's integral formula and its consequences (Week 4)](#module-5-cauchys-integral-formula-and-its-consequences-week-4)
+- [Module 6. Taylor and Laurent series (Week 5)](#module-6-taylor-and-laurent-series-week-5)
+- [Module 7. Singularities and the residue theorem (Week 6)](#module-7-singularities-and-the-residue-theorem-week-6)
+- [Module 8. Real integrals by residues; Jordan's lemma; principal values (Week 7)](#module-8-real-integrals-by-residues-jordans-lemma-principal-values-week-7)
+- [Module 9. Capstone: Green functions, causality and Kramers-Kronig (Week 8)](#module-9-capstone-green-functions-causality-and-kramers-kronig-week-8)
+- [Module 10 (optional). Harmonic functions, maximum modulus, Dirichlet and Neumann](#module-10-optional-harmonic-functions-maximum-modulus-dirichlet-and-neumann)
+- [Module 11 (optional). Multivalued integrands: keyhole contours](#module-11-optional-multivalued-integrands-keyhole-contours)
+- [Appendix A. Parked: non-standard topics for a later thread](#appendix-a-parked-non-standard-topics-for-a-later-thread)
+- [Appendix B. The gate (blank page, unrushed)](#appendix-b-the-gate-blank-page-unrushed)
+- [Appendix C. Cheat-sheet contents](#appendix-c-cheat-sheet-contents)
+- [Appendix D. Verification script](#appendix-d-verification-script)
+- [Appendix E. Parallel map to Goldstein and Jackson](#appendix-e-parallel-map-to-goldstein-and-jackson)
+- [Appendix F. Study tips specific to this track](#appendix-f-study-tips-specific-to-this-track)
 
 ---
 
@@ -780,4 +797,3 @@ print("all checks done")
 - Keep a **mistake log**: the typical errors are the wrong half-plane, a missing $\frac12$ for a half-circle, and a lost $2\pi i$. Review it before Module 9.
 - Use Ávila's *Respostas e sugestões* after trying, not before.
 - When Ávila is terse, read the same topic in Churchill's chapter for a second explanation; when Churchill is dry, read the same topic in Ávila for the idea.
-
