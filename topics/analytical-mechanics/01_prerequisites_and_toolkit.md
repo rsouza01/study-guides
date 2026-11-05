@@ -13,7 +13,13 @@ The material is mostly review, but three skills decide whether later modules fee
 
 ## Skip-test (40 minutes, no notes)
 
-1. Diagonalize $`\begin{pmatrix} 2 & -1 \\ -1 & 2 \end{pmatrix}`$; give eigenvalues, orthonormal eigenvectors, and show that the eigenvectors of a real symmetric matrix with distinct eigenvalues are orthogonal.
+1. Diagonalize
+
+    ```math
+    \begin{pmatrix} 2 & -1 \\ -1 & 2 \end{pmatrix}
+    ```
+
+    and give eigenvalues, orthonormal eigenvectors, and show that the eigenvectors of a real symmetric matrix with distinct eigenvalues are orthogonal.
 
 2. Solve $\ddot x+\omega^2x=0$ and $\ddot x+2\gamma\dot x+\omega^2x=0$ (underdamped case) with initial conditions $x(0)=x_0$, $\dot x(0)=0$.
 3. Prove $\epsilon_{ijk}\epsilon_{ilm}=\delta_{jl}\delta_{km}-\delta_{jm}\delta_{kl}$ and use it to derive $\mathbf a\times(\mathbf b\times\mathbf c)=\mathbf b(\mathbf a\cdot\mathbf c)-\mathbf c(\mathbf a\cdot\mathbf b)$.
