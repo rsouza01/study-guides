@@ -1,7 +1,8 @@
 # Module 16: Relativistic particle dynamics and minimal coupling
 
-**Books:** Jackson **12.1** (Lagrangian and Hamiltonian for a relativistic charged particle), 12.2 (motion in a uniform static magnetic field), 12.3 (motion in combined uniform static electric and magnetic fields), 12.6 (the Darwin Lagrangian: optional, but the first sight of one-photon exchange as an instantaneous potential). **Skip** 12.4 to 12.5 (drifts and adiabatic invariants: plasma physics). Your mechanics guide, Modules 07 and 13 (Hamiltonian and relativistic mechanics), is the prerequisite; Griffiths 12.3 for the physical picture.
+**Books:** Jackson **12.1 Lagrangian and Hamiltonian for a relativistic charged particle (pp. 579 to 585)**, 12.2 uniform static magnetic field (p. 585), 12.3 combined uniform static E and B (pp. 586 to 588), 12.6 the Darwin Lagrangian (pp. 596 to 598; optional); Griffiths §12.2.4 Relativistic dynamics (pp. 547 to 553) and §12.3.5 Relativistic potentials (pp. 572 to 574). **Skip** 12.4 and 12.5. Your mechanics guide, Modules 07 and 13, is the prerequisite.
 **Time:** 2 weeks (four sessions). Gaussian units.
+**Pinned to:** Griffiths 5th ed. (2024), Jackson 3rd ed. (1999), Purcell and Morin 3rd ed. (2013, SI), Riley, Hobson and Bence 3rd ed. Page numbers are the printed book pages.
 
 ## Why this matters
 
@@ -38,18 +39,34 @@ Modules 13 and 15; mechanics guide Modules 02, 07, 13.
 
 **Charged particle in given fields:** (1) write $L$ (or $H$) with the gauge you choose; (2) identify symmetries and conserved canonical momenta; (3) derive the equations of motion (Lorentz force) or reduce with conserved quantities; (4) transform to a frame that simplifies the fields (e.g. $\mathbf E'=0$); (5) check with energy $\gamma mc^2+q\Phi$ and the invariant $u\cdot u=c^2$.
 
-## Reading plan
+## Reading plan (pinned to your editions)
 
-| Session | Task |
-| --- | --- |
-| A1 | Jackson 12.1; derive $\mathbf p$, $H$ from $L$ (closed book) |
-| B1 | Exercises 1, 2 and 7 |
-| A2 | Jackson 12.2; the cyclotron frequency and radius |
-| B2 | Exercises 3 and 6 |
-| A3 | Jackson 12.3; crossed fields and the boost to $\mathbf E'=0$ |
-| B3 | Exercises 4 and 5 |
-| A4 | Jackson 12.6 (optional); exercises 8 and 9 |
-| B4 | **Jackson targets** (exercise 10); the computational task |
+A session is part A (read, derive) followed by part B (exercises), about two and a half hours in all. Page numbers are the printed ones.
+
+| Session | A: read and derive | B: do | Done when |
+| --- | --- | --- | --- |
+| 1 | Jackson 12.1 (pp. 579 to 585). Derive $\mathbf p$ and $H$ from $L$, closed book. | Module exercises 1, 2 and 7. Jackson Problems 12.1 and 12.2. | $H=\sqrt{c^2(\mathbf p-e\mathbf A/c)^2+m^2c^4}+e\Phi$ derived. |
+| 2 | Jackson 12.2 (p. 585). Cyclotron frequency and radius. | Module exercises 3 and 6. Jackson Problem 12.3. | Radius $p/eB$ with relativistic $p$. |
+| 3 | Jackson 12.3 (pp. 586 to 588). Crossed fields and the boost to $\mathbf E'=0$. | Module exercises 4 and 5. Jackson Problems 12.4, 12.5, 12.6. Griffiths Problem 12.72. | Drift velocity $c\,\mathbf E\times\mathbf B/B^2$ obtained, and the $E>B$ case. |
+| 4 | Jackson 12.6 (pp. 596 to 598), optional. | Exercises 8 and 9. **Jackson targets**: Problems 12.1 and 12.3, and 12.13 (Darwin Lagrangian for two particles). The computational task. | Two-body velocity-dependent term identified. |
+
+## Problem set (pinned)
+
+**Pin status:** Pinned: sections and problems in Griffiths and Jackson (verified).
+
+Tiers: **Must** (do all), **Should** (do when time allows), **Could** (only if the module is going well). A dash in the exercise column means the problem supports the reading rather than a module exercise. Purcell and Morin: stars give difficulty; problems are solved in Chapter 12 (the exercises are not).
+
+| Book | Problem | What it asks | Module exercise | Tier |
+| --- | --- | --- | --- | --- |
+| Jackson | 12.1 | invariant Lagrangian; Hamiltonian | 10 | Must |
+| Jackson | 12.3 | motion in uniform static E and B | 10 | Must |
+| Griffiths | 12.72 | charge released from rest in crossed fields | 4 | Should |
+| Jackson | 12.2 | Lagrangians differing by a total derivative | 1 | Should |
+| Jackson | 12.4 | E x B velocity selector | 4 | Should |
+| Jackson | 12.5 | crossed fields in the laboratory frame | 4 | Should |
+| Griffiths | 12.71 | 'derive' the Lorentz force law | 6 | Could |
+| Jackson | 12.6 | E and B at an angle | 4 | Could |
+| Jackson | 12.13 | Darwin Lagrangian for two particles | 9 | Could |
 
 ## Derive from scratch
 

@@ -1,7 +1,8 @@
 # Module 12: Conservation laws, discrete symmetries and plane waves
 
-**Books:** Griffiths chapter 8 (conservation laws: Poynting, the Maxwell stress tensor, momentum, angular momentum) and chapter 9 (electromagnetic waves, 9.1 to 9.2); Purcell chapter 9; Jackson **6.7** (Poynting's theorem: conservation of energy and momentum, the Maxwell stress tensor), 6.9 (harmonic fields: light), **6.10** (transformations under rotations, spatial inversion and time reversal), 6.11 to 6.12 (magnetic monopoles, Dirac's quantization: optional, 90 minutes, and one of the most beautiful arguments in the book), 7.1 to 7.2 (plane waves, polarization, Stokes parameters: a coda, about four hours). **Skip** Jackson 6.8 (dissipative media) and 6.6 (macroscopic equations; skim).
+**Books:** Griffiths §8.1 (pp. 362 to 367), §8.2 Momentum and the Maxwell stress tensor (pp. 367 to 379), §9.1 to §9.2 (pp. 390 to 408); Purcell and Morin 3rd ed. §9.4 to §9.6 (pp. 438 to 452); Jackson **6.7 Poynting's theorem, energy and momentum (pp. 258 to 262)**, 6.9 harmonic fields (pp. 264 to 267), **6.10 transformations under rotations, reflections and time reversal (pp. 267 to 273)**, 6.11 to 6.12 monopoles and Dirac quantization (pp. 273 to 280; optional), 7.1 to 7.2 (pp. 295 to 302).
 **Time:** 3 weeks (six sessions).
+**Pinned to:** Griffiths 5th ed. (2024), Jackson 3rd ed. (1999), Purcell and Morin 3rd ed. (2013, SI), Riley, Hobson and Bence 3rd ed. Page numbers are the printed book pages.
 
 ## Why this matters
 
@@ -39,19 +40,41 @@ Modules 03, 09, 10, 11 (at least the wave equation); mechanics guide Module 04 h
 **Poynting flux problem:** (1) find $\mathbf E$ and $\mathbf B$ in the region; (2) compute $\mathbf S=\frac1{\mu_0}\mathbf E\times\mathbf B$ with its direction; (3) integrate over the surface; (4) compare with $\frac{dU}{dt}$ or the dissipated power; (5) check that it is conserved.
 **Stress-tensor force:** (1) choose a closed surface surrounding the charges; (2) compute $T_{ij}n_j$ on it (diagonal components in the symmetric directions first); (3) integrate; (4) add the field-momentum term if the fields change in time; (5) check with the direct Coulomb/Lorentz force.
 
-## Reading plan
+## Reading plan (pinned to your editions)
 
-| Session | Task |
-| --- | --- |
-| A1 | Griffiths 8.1 (Poynting); Jackson 6.7 first half |
-| B1 | Exercises 1 to 3 |
-| A2 | Griffiths 8.2 (momentum, stress tensor); Jackson 6.7 second half |
-| B2 | Exercises 4 to 6 |
-| A3 | Jackson 6.10 and Griffiths 9.1 to 9.2 |
-| B3 | Exercises 7 and 8 |
-| A4 | Jackson 7.1 to 7.2 (coda); 6.11 to 6.12 (optional) |
-| B4 | Exercises 9 and 10; **Jackson targets** |
-| A5/B5 | Spare sessions; the Month-3 gate |
+A session is part A (read, derive) followed by part B (exercises), about two and a half hours in all. Page numbers are the printed ones.
+
+| Session | A: read and derive | B: do | Done when |
+| --- | --- | --- | --- |
+| 1 | Griffiths §8.1 (pp. 362 to 367). Jackson 6.7, first half (pp. 258 to 260). | Module exercises 1 to 3. Griffiths Problems 8.1, 8.3, 9.10. | Poynting flux through the wire and the capacitor accounted for. |
+| 2 | Griffiths §8.2 (pp. 367 to 379). Jackson 6.7, second half (pp. 260 to 262). | Module exercises 4 to 6. Griffiths Problems 8.5, 8.6, 8.7. | Force between two charges from $T_{zz}$ on the mid-plane. |
+| 3 | Jackson 6.10 (pp. 267 to 273). Griffiths §9.1 to §9.2 (pp. 390 to 408). Purcell §9.4 to §9.6. | Module exercises 7 and 8. Griffiths Problems 9.9, 9.13. Purcell Problem 9.8. | All four Maxwell equations checked under P and T. |
+| 4 | Jackson 7.1 to 7.2 (pp. 295 to 302); 6.11 to 6.12 (optional). | Module exercises 9 and 10. **Jackson targets:** Problems 6.2 and 6.14. Optional: Jackson 6.16. | Continuity equation derived from the microscopic point-charge form. |
+| 5 (spare) | Spare; the Month-3 gate. | Optional: Purcell Problems 9.10, 9.11, 9.12. | Gate passed. |
+
+## Problem set (pinned)
+
+**Pin status:** Pinned: sections and problems in all three books (verified).
+
+Tiers: **Must** (do all), **Should** (do when time allows), **Could** (only if the module is going well). A dash in the exercise column means the problem supports the reading rather than a module exercise. Purcell and Morin: stars give difficulty; problems are solved in Chapter 12 (the exercises are not).
+
+| Book | Problem | What it asks | Module exercise | Tier |
+| --- | --- | --- | --- | --- |
+| Griffiths | 8.1 | power transported down a cable (Poynting) | 1 | Must |
+| Griffiths | 8.3 | charging capacitor: E, B and Poynting vector | 2 | Must |
+| Griffiths | 8.6 | force between two equal point charges by stress tensor | 6 | Must |
+| Griffiths | 9.10 | radiation pressure of sunlight (absorber and reflector) | 3 | Must |
+| Jackson | 6.2 | microscopic charge and current densities of a point charge | 10 | Must |
+| Griffiths | 8.5 | magnetic attraction between hemispheres, by stress tensor | 5 | Should |
+| Griffiths | 8.7 | two infinite sheets with surface charge and current | 6 | Should |
+| Griffiths | 9.9 | real fields for a given complex wave | 8 | Should |
+| Griffiths | 9.13 | Maxwell stress tensor of a monochromatic plane wave | 8 | Should |
+| Purcell | 9.11 ** | momentum in an electromagnetic field | 5 | Should |
+| Jackson | 6.14 | ideal circular parallel-plate capacitor: Poynting analysis | 10 | Should |
+| Purcell | 9.8 * | sunlight | 3 | Could |
+| Purcell | 9.10 ** | energy flow from a wire | 1 | Could |
+| Purcell | 9.12 *** | angular momentum paradox | 5 | Could |
+| Jackson | 6.16 | force on a Dirac monopole of minimum strength | 9 | Could |
 
 ## Derive from scratch
 

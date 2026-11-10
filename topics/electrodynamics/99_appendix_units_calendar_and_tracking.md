@@ -1,10 +1,10 @@
 # Appendix: units, calendar, tracking, parked material and references
 
-> Section numbers and book descriptions are from memory. Verify them against your copies.
+> Module sections and problems are pinned to your copies (see the README); the remaining numbers in this appendix are from memory.
 
 ## 1. Pinning the guide to your books
 
-Jackson problem numbers marked "~" are recalled search hints; Griffiths and Purcell exercises are described by content. To pin every module exactly, either do **Task 0 of Module 02** (`notes/reading_map.md`) or upload the tables of contents and problem lists and I will rewrite each module's reading plan and exercise list with exact references, as was done for Zettili. Check also which edition of Purcell you own: the 3rd edition is SI, the 2nd edition is Gaussian.
+Modules 02 to 22 are pinned to your editions: Griffiths 5th ed. (2024), Jackson 3rd ed. (1999), Purcell and Morin 3rd ed. (2013) and Riley, Hobson and Bence 3rd ed. See the verification notes in the README. Module 01 (Stewart) and Module 23 (synthesis) are unchanged. If a page number in a table is off by a page or two in your copy, trust the section number and note the difference in `notes/error_log.md`.
 
 ## 2. Gaussian-to-SI dictionary (Jackson Chapters 1 to 10 are SI; Chapters 11 onward are Gaussian)
 

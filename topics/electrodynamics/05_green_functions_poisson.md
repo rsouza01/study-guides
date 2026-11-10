@@ -1,7 +1,8 @@
 # Module 05: Green functions for the Poisson equation (★, thread A begins)
 
-**Books:** Jackson 1.8 (Green's theorem: **slow down, read three times**), 1.10 (formal solution of boundary-value problems with Green functions: *the reason for this module*), 2.6 (the Green function for the sphere); Griffiths 3.1 (uniqueness, for the physical reading) and its discussion of images as Green functions where present; Zangwill (optional, notably clear on Green functions).
+**Books:** Jackson 1.8 Green's Theorem (pp. 35 to 37: **slow down, read three times**), 1.10 Formal Solution of the Electrostatic Boundary-Value Problem with Green Function (pp. 38 to 40: *the reason for this module*), 2.6 Green Function for the Sphere (pp. 64 to 65); Griffiths §3.1.5 to §3.1.6 (pp. 118 to 124) for the physical reading; Riley §17.5 (pp. 569 to 572) and §21.5 (pp. 751 to 767) for the Green function as the inverse of a differential operator; Zangwill (optional).
 **Time:** 2 weeks (four sessions). **Never skip** this module: Jackson 1.8 to 1.10 and 2.6 are non-negotiable.
+**Pinned to:** Griffiths 5th ed. (2024), Jackson 3rd ed. (1999), Purcell and Morin 3rd ed. (2013, SI), Riley, Hobson and Bence 3rd ed. Page numbers are the printed book pages.
 
 ## Why this matters
 
@@ -41,18 +42,35 @@ Modules 01 to 04 (Green's identities, delta functions, images).
 
 **Constructing $G_D$:** (1) write $G=\frac1R+F$; (2) find $F$ (harmonic inside $V$, i.e. with sources outside $V$) such that $G=0$ for $\mathbf x$ on $S$; in simple geometries $F$ is the image potential; (3) verify the boundary condition and symmetry; (4) compute $\partial G/\partial n'$ on $S$; (5) insert in the formal solution and check a known case (constant boundary data).
 
-## Reading plan
+## Reading plan (pinned to your editions)
 
-| Session | Task |
-| --- | --- |
-| A1 | Jackson 1.8 (three readings); derive the formal solution (derivation 1 and 2) |
-| B1 | Exercises 1 to 4 |
-| A2 | Jackson 1.10; the Neumann subtlety; the half-space example |
-| B2 | Exercises 5 to 6 |
-| A3 | Jackson 2.6; construct $G_D$ for the sphere |
-| B3 | Exercises 7 to 9 |
-| A4 | **Jackson target** (exercise 10); redo derivation 1 and 2 from a blank page |
-| B4 | Spare session |
+A session is part A (read, derive) followed by part B (exercises), about two and a half hours in all. Page numbers are the printed ones.
+
+| Session | A: read and derive | B: do | Done when |
+| --- | --- | --- | --- |
+| 1 | Jackson 1.8 (pp. 35 to 37), three readings. Derive the formal solution (derivations 1 and 2). | Module exercises 1 to 4. Jackson Problem 1.12 (Green's reciprocation theorem); Griffiths Problem 3.54 (Green's reciprocity theorem). | Green's second identity and the formal solution written from a blank page. |
+| 2 | Jackson 1.10 (pp. 38 to 40): Dirichlet and Neumann; the Neumann subtlety; the half-space example. | Module exercises 5 and 6. Jackson Problem 1.14 (symmetry of the Dirichlet Green function; Neumann case) (symmetry of $G_D$; $G_N$ not symmetric) and Problem 1.13 (charge induced between two grounded planes, by reciprocation). | You can say exactly where the boundary condition enters the symmetry proof. |
+| 3 | Jackson 2.6 (pp. 64 to 65): construct $G_D$ for the sphere. | Module exercises 7 to 9. Jackson Problem 2.2 (point charge inside a grounded hollow sphere (images)) (the same image charge, from the other side). | $G_D$ vanishes on the sphere; the Poisson kernel check passes. |
+| 4 | **Jackson target:** Problem 2.7 (half-space Green function; disc at potential V; on-axis result). Redo derivations 1 and 2 from a blank page. | Spare. Optional with the complex analysis guide: Problem 2.21 (Cauchy's theorem gives the Poisson integral). | On-axis $V(1-z/\sqrt{a^2+z^2})$ obtained and the far-field expansion consistent with it. |
+
+## Problem set (pinned)
+
+**Pin status:** Pinned: Jackson sections and problems (verified), Griffiths problems (verified), Riley sections (verified).
+
+Tiers: **Must** (do all), **Should** (do when time allows), **Could** (only if the module is going well). A dash in the exercise column means the problem supports the reading rather than a module exercise. Purcell and Morin: stars give difficulty; problems are solved in Chapter 12 (the exercises are not).
+
+| Book | Problem | What it asks | Module exercise | Tier |
+| --- | --- | --- | --- | --- |
+| Jackson | 1.12 | Green's reciprocation theorem | 1 | Must |
+| Jackson | 1.14 | symmetry of the Dirichlet Green function; Neumann case | 3 | Must |
+| Jackson | 2.7 | half-space Green function; disc at potential V; on-axis result | 10 | Must |
+| Jackson | 1.13 | charge induced between two grounded planes, by reciprocation | 2 | Should |
+| Jackson | 2.2 | point charge inside a grounded hollow sphere (images) | 7 | Should |
+| Griffiths | 3.54 | Green's reciprocity theorem | 1 | Should |
+| Riley | 21.23 | Green function in the half-space z > 0 | 5 | Should |
+| Jackson | 2.21 | Cauchy's theorem gives the Poisson integral | 10 | Could |
+| Griffiths | 3.55 | problems solved with reciprocity | 1 | Could |
+| Riley | 17.14 | Poisson's equation solved with a Green function | 1 | Could |
 
 ## Derive from scratch
 

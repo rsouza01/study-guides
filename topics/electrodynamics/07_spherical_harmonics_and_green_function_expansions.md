@@ -1,7 +1,8 @@
 # Module 07: Spherical harmonics and Green function expansions (★★: the technique of the whole guide)
 
-**Books:** Jackson 3.5 (associated Legendre functions and $Y_{\ell m}$), 3.6 (the addition theorem: **memorise the statement**), **3.9 (expansion of Green functions in spherical coordinates)**, **3.10 (solving potential problems with it)**; Griffiths 3.4 (multipole expansion, for the physical reading); Boas or Arfken for $Y_{\ell m}$ background.
+**Books:** Jackson 3.5 Associated Legendre Functions and the Spherical Harmonics $Y_{\ell m}$ (pp. 107 to 110), 3.6 Addition Theorem for Spherical Harmonics (p. 110: **memorise the statement**), **3.9 Expansion of Green Functions in Spherical Coordinates (pp. 119 to 123)**, **3.10 Solution of Potential Problems with the Spherical Green Function Expansion (pp. 123 to 125)**; Griffiths §3.4.1 Approximate Potentials at Large Distances (pp. 147 to 151) for the physical reading; Riley §18.2 and §18.3 (pp. 587 to 595) as a second source for $Y_{\ell m}$.
 **Time:** 3 weeks (six sessions). **If you master one technique in this whole guide, make it the radial Green function construction.**
+**Pinned to:** Griffiths 5th ed. (2024), Jackson 3rd ed. (1999), Purcell and Morin 3rd ed. (2013, SI), Riley, Hobson and Bence 3rd ed. Page numbers are the printed book pages.
 
 ## Why this matters
 
@@ -37,20 +38,33 @@ Modules 05 and 06 (Green functions, Legendre polynomials).
 
 **Radial Green function:** (1) expand the delta function and $G$ in $Y_{\ell m}$; (2) write the radial ODE with $-\frac{4\pi}{r^2}\delta(r-r')$; (3) pick the two homogeneous solutions satisfying the boundary condition at each end (regular at $0$ or vanishing at $a$; regular at $\infty$ or vanishing at $b$); (4) glue them, $g=Cu_1(r_<)u_2(r_>)$, so the solution is continuous automatically; (5) integrate the ODE across $r'$ to fix $C$ through the Wronskian; (6) check the free-space limit $\frac{4\pi}{2\ell+1}\frac{r_<^\ell}{r_>^{\ell+1}}$ and the symmetry in $r\leftrightarrow r'$.
 
-## Reading plan
+## Reading plan (pinned to your editions)
 
-| Session | Task |
-| --- | --- |
-| A1 | Jackson 3.5; explicit $Y_{\ell m}$ (exercises 1 and 2) |
-| B1 | Exercises 1 to 3 |
-| A2 | Jackson 3.6; the addition theorem and the $1/|\mathbf x-\mathbf x'|$ expansion |
-| B2 | Exercises 3 and 4 |
-| A3 | Jackson 3.9; **read the "Why" paragraph above before starting**; construct $g_\ell$ |
-| B3 | Exercises 5 and 6 |
-| A4 | Jackson 3.10; the concentric-sphere case |
-| B4 | Exercises 7 to 9 |
-| A5 | **Jackson target** (exercise 10); redo the free-space construction from a blank page |
-| B5 | Spare session |
+A session is part A (read, derive) followed by part B (exercises), about two and a half hours in all. Page numbers are the printed ones.
+
+| Session | A: read and derive | B: do | Done when |
+| --- | --- | --- | --- |
+| 1 | Jackson 3.5 (pp. 107 to 110). Riley §18.2 to §18.3. Griffiths §3.4.1. | Module exercises 1 to 3. Jackson Problem 3.5 (equivalence of the Poisson-integral and series forms of the interior potential) (optional, uses the addition theorem). | Orthogonality of $Y_{\ell m}$ checked on three examples. |
+| 2 | Jackson 3.6 (p. 110): the addition theorem and the expansion of $1/\vert \mathbf x-\mathbf x'\vert $. | Module exercises 3 and 4. | Sum rule $\sum_m\vert Y_{\ell m}\vert ^2=(2\ell+1)/4\pi$ derived. |
+| 3 | Jackson 3.9 (pp. 119 to 123). **Read the module's "Why" paragraph first.** Construct $g_\ell$. | Module exercises 5 and 6. Optional: Problem 3.26 (Neumann Green function between concentric spheres). | Free-space $g_\ell$ constructed with the jump condition from a blank page. |
+| 4 | Jackson 3.10 (pp. 123 to 125): the concentric-sphere case. | Module exercises 7 to 9. Jackson Problem 3.13 (solve 3.1 with the Green function), Problem 3.14 (line charge in a grounded spherical shell). | Point charge in a grounded sphere reproduced on the axis. |
+| 5 | **Jackson target:** Problem 3.6 (charges q and -q on the z axis: expansion, dipole limit, grounded shell) and the radial Green function. Redo the free-space construction from a blank page. | Spare. Optional: Problem 3.27 (apply the Neumann Green function to a normal field E0 cos(theta)). | Dipole limit and the grounded-shell version both obtained. |
+
+## Problem set (pinned)
+
+**Pin status:** Pinned: Jackson sections and problems (verified), Riley sections (verified).
+
+Tiers: **Must** (do all), **Should** (do when time allows), **Could** (only if the module is going well). A dash in the exercise column means the problem supports the reading rather than a module exercise. Purcell and Morin: stars give difficulty; problems are solved in Chapter 12 (the exercises are not).
+
+| Book | Problem | What it asks | Module exercise | Tier |
+| --- | --- | --- | --- | --- |
+| Jackson | 3.6 | charges q and -q on the z axis: expansion, dipole limit, grounded shell | 10 | Must |
+| Jackson | 3.5 | equivalence of the Poisson-integral and series forms of the interior potential | 1 | Should |
+| Jackson | 3.13 | solve 3.1 with the Green function | 7 | Should |
+| Jackson | 3.14 | line charge in a grounded spherical shell | 8 | Should |
+| Riley | 18.2 | express a function of theta, phi in terms of Y_lm | 1 | Should |
+| Jackson | 3.26 | Neumann Green function between concentric spheres | 6 | Could |
+| Jackson | 3.27 | apply the Neumann Green function to a normal field E0 cos(theta) | 6 | Could |
 
 ## Derive from scratch
 

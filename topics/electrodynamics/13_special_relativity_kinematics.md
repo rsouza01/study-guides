@@ -1,7 +1,8 @@
 # Module 13: Special relativity: postulates, Lorentz transformations, kinematics
 
-**Books:** Jackson 11.1 (historical: fast), **11.2** (postulates and implications), **11.3** (Lorentz transformations and four-vectors), **11.4** (velocity addition, four-velocity), **11.5** (relativistic momentum and energy); Griffiths 12.1 to 12.2 (special relativity, relativistic mechanics: the problem-solving engine); Purcell chapter 5 (the fields of moving charges, with a clean relativity primer). **Units switch to Gaussian from Jackson Chapter 11 onward** (kinematics is unit-free; the dictionary is in the appendix).
+**Books:** Griffiths §12.1 (pp. 508 to 538) and §12.2 (pp. 538 to 553); Jackson 11.1 (p. 515), **11.2** (p. 518), **11.3** (p. 524), **11.4** (p. 530), **11.5** (p. 533); Purcell and Morin 3rd ed. §5.4 to §5.5 (pp. 241 to 247) and Appendix G, a short review of special relativity (p. 804). **Units switch to Gaussian from Jackson Chapter 11 onward** (kinematics is unit-free).
 **Time:** 2 weeks (four sessions).
+**Pinned to:** Griffiths 5th ed. (2024), Jackson 3rd ed. (1999), Purcell and Morin 3rd ed. (2013, SI), Riley, Hobson and Bence 3rd ed. Page numbers are the printed book pages.
 
 ## Why this matters
 
@@ -34,18 +35,39 @@ Module 01 (chain rule: why $\partial_\mu$ transforms with the inverse matrix); m
 
 **Relativity problem:** (1) define the frames and events; (2) write the four-vectors involved (position, momentum, wave vector); (3) use invariants and conservation of four-momentum *before* transforming anything; (4) transform only at the end, with one boost; (5) check the limits $\beta\to0$ (Newtonian) and $\beta\to1$.
 
-## Reading plan
+## Reading plan (pinned to your editions)
 
-| Session | Task |
-| --- | --- |
-| A1 | Griffiths 12.1; Jackson 11.1 to 11.2; derive the Lorentz transformation |
-| B1 | Exercises 1 to 4 |
-| A2 | Jackson 11.3 to 11.4; four-vectors and velocity addition |
-| B2 | Exercises 5 and 6 |
-| A3 | Griffiths 12.2; Jackson 11.5 |
-| B3 | Exercises 7 to 9 |
-| A4 | **Jackson targets** (exercise 10) |
-| B4 | Spare session; Purcell chapter 5 |
+A session is part A (read, derive) followed by part B (exercises), about two and a half hours in all. Page numbers are the printed ones.
+
+| Session | A: read and derive | B: do | Done when |
+| --- | --- | --- | --- |
+| 1 | Griffiths §12.1 (pp. 508 to 538). Jackson 11.1 to 11.2 (pp. 515 to 524). Derive the Lorentz transformation. | Module exercises 1 to 4. Griffiths Problems 12.7, 12.8, 12.12, 12.14. | Lorentz transformation and velocity addition derived from the postulates. |
+| 2 | Jackson 11.3 to 11.4 (pp. 524 to 533). Four-vectors and velocity addition. | Module exercises 5 and 6. Griffiths Problems 12.20, 12.21. Jackson Problem 11.3. | Interval invariance used without hesitation. |
+| 3 | Griffiths §12.2 (pp. 538 to 553). Jackson 11.5 (pp. 533 to 536). | Module exercises 7 to 9. Griffiths Problems 12.26, 12.33, 12.34, 12.39. | $u\cdot u=c^2$ and $u\cdot a=0$ shown. |
+| 4 | **Jackson targets.** | Jackson Problems 11.5 and 11.24 (threshold kinetic energy); Griffiths Problem 12.64. Spare; Purcell Appendix G. | Threshold energy found in the invariant-mass way. |
+
+## Problem set (pinned)
+
+**Pin status:** Pinned: sections and problems in Griffiths and Jackson (verified).
+
+Tiers: **Must** (do all), **Should** (do when time allows), **Could** (only if the module is going well). A dash in the exercise column means the problem supports the reading rather than a module exercise. Purcell and Morin: stars give difficulty; problems are solved in Chapter 12 (the exercises are not).
+
+| Book | Problem | What it asks | Module exercise | Tier |
+| --- | --- | --- | --- | --- |
+| Griffiths | 12.7 | muon lifetime in the laboratory | 1 | Must |
+| Griffiths | 12.12 | solve the Lorentz transformation for x, y, z, t | 1 | Must |
+| Griffiths | 12.20 | events A and B: invariant interval | 5 | Must |
+| Griffiths | 12.26 | invariant product of the 4-velocity with itself | 9 | Must |
+| Griffiths | 12.34 | pion decay | 7 | Must |
+| Jackson | 11.5 | frame K' moving relative to K: transformation of a particle's motion | 10 | Must |
+| Jackson | 11.24 | threshold kinetic energy of a reaction | 10 | Must |
+| Griffiths | 12.8 | rocket ship | 1 | Should |
+| Griffiths | 12.14 | velocity addition in the y direction | 6 | Should |
+| Griffiths | 12.21 | coordinates of event A: spacelike or timelike | 5 | Should |
+| Griffiths | 12.33 | collision of a particle of energy 2mc^2 with an identical particle at rest | 7 | Should |
+| Griffiths | 12.39 | proper acceleration | 9 | Should |
+| Griffiths | 12.64 | threshold momentum | 10 | Should |
+| Jackson | 11.3 | successive Lorentz transformations in one direction | 5 | Should |
 
 ## Derive from scratch
 

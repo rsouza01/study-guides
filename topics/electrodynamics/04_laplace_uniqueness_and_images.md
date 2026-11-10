@@ -1,7 +1,8 @@
 # Module 04: Laplace's equation, uniqueness and the method of images
 
-**Books:** Griffiths 3.1 to 3.2 (Laplace's equation, images); Purcell chapter 3 (conductors); Jackson 1.9 (uniqueness) and 2.1 to 2.5 (images; read for technique and do not linger). Jackson 1.8 and 1.10 (the formal Green function solution) belong to Module 05.
+**Books:** Griffiths §3.1 Laplace's Equation (pp. 113 to 124: 3.1.2 to 3.1.4 the mean-value property, 3.1.5 boundary conditions and uniqueness theorems p. 118, 3.1.6 conductors and the second uniqueness theorem p. 121) and §3.2 The Method of Images (pp. 124 to 129); Purcell and Morin 3rd ed. §2.11 to §2.12 (pp. 85 to 88), §3.3 uniqueness theorem (pp. 132 to 136), §3.4 image charges (pp. 136 to 141) and §3.8 (p. 151); Jackson 1.9 (pp. 37 to 38) and 2.1 to 2.5 (pp. 57 to 64; read for technique and do not linger). Jackson 1.8 and 1.10 belong to Module 05.
 **Time:** 2 weeks (four sessions). **Tier note:** if diagnostic problem 5 is right, pass the skip-test and do the Jackson targets only.
+**Pinned to:** Griffiths 5th ed. (2024), Jackson 3rd ed. (1999), Purcell and Morin 3rd ed. (2013, SI), Riley, Hobson and Bence 3rd ed. Page numbers are the printed book pages.
 
 ## Why this matters
 
@@ -37,18 +38,49 @@ Modules 01 to 03.
 
 **Images:** (1) state the region where the potential is wanted and the boundary condition (e.g. $\Phi=0$ on $S$); (2) guess image charges *outside* that region using the symmetry of the boundary (reflection for planes, inversion for spheres); (3) verify the boundary condition at a few points and in general; (4) write $\Phi$ in the region as the sum over real and image charges; (5) compute $\sigma=-\epsilon_0\partial_n\Phi$, the force and the work, keeping track of the factor $\frac12$ in the energy.
 
-## Reading plan
+## Reading plan (pinned to your editions)
 
-| Session | Task |
-| --- | --- |
-| A1 | Griffiths 3.1; the mean-value theorem; uniqueness (Griffiths 3.1.6 and Jackson 1.9) |
-| B1 | Exercises 5 and 6 |
-| A2 | Griffiths 3.2; the images method card; Purcell chapter 3 |
-| B2 | Exercises 1 to 4 |
-| A3 | Jackson 2.1 to 2.5 (read for technique) |
-| B3 | Exercises 7 to 9 |
-| A4 | **Jackson targets** (exercise 10) |
-| B4 | Spare session: redo the failed steps from `error_log.md` |
+A session is part A (read, derive) followed by part B (exercises), about two and a half hours in all. Page numbers are the printed ones.
+
+| Session | A: read and derive | B: do | Done when |
+| --- | --- | --- | --- |
+| 1 | Griffiths §3.1.1 to §3.1.6 (pp. 113 to 124). Jackson 1.9 (pp. 37 to 38). Purcell §2.11, §2.12 and §3.3. | Module exercises 5 and 6. Griffiths Problem 3.1 (average potential over a sphere due to an interior charge), Problem 3.2 (Earnshaw's theorem in one sentence), Problem 3.5 (first uniqueness theorem), Problem 3.6 (second uniqueness theorem via Green's identity). | Uniqueness proof reproduced from a blank page in under ten minutes. |
+| 2 | Griffiths §3.2 (pp. 124 to 129). The images method card. Purcell §3.4 (pp. 136 to 141) and §3.8 (p. 151). | Module exercises 1 to 4. Griffiths Problem 3.7 (force on +q in the plane-image problem of Fig. 3.14), Problem 3.9 (force between a charge and a grounded sphere), Problem 3.10 (grounded sphere with an added charge: second image), Problem 3.11 (force between a charge and a sphere carrying total charge Q), Problem 3.12 (line charge above a grounded plane). | Force, induced density and energy of the plane problem agree with Jackson's answers. |
+| 3 | Jackson 2.1 to 2.5 (pp. 57 to 64), read for technique. | Module exercises 7 to 9. Griffiths Problem 3.13 (charge between two semi-infinite grounded planes at right angles), Problem 3.40 (alternative derivation of the induced charge density), Problem 3.41 (two parallel grounded planes with a charge between); optional (computational): Problem 3.42 (two charged conducting spheres, iterated images). | Image sets for the right-angle wedge written down correctly. |
+| 4 | **Jackson targets:** Problem 2.1 (charge near a grounded plane: sigma, force, work, energy) and Problem 2.2 (point charge inside a grounded hollow sphere (images)). | Spare: redo failed steps. Optional: Problem 2.4 (point charge near an equally charged isolated sphere), Problem 2.5 (work to remove a charge from a grounded sphere), Problem 2.3 (line charge near two intersecting grounded planes), Problem 2.11 (line charge parallel to a conducting cylinder at fixed voltage). | 2.1(a) to (e) all done. |
+
+## Problem set (pinned)
+
+**Pin status:** Pinned: Griffiths and Jackson sections and problems (verified), Purcell sections and problems (verified; solutions in Chapter 12).
+
+Tiers: **Must** (do all), **Should** (do when time allows), **Could** (only if the module is going well). A dash in the exercise column means the problem supports the reading rather than a module exercise. Purcell and Morin: stars give difficulty; problems are solved in Chapter 12 (the exercises are not).
+
+| Book | Problem | What it asks | Module exercise | Tier |
+| --- | --- | --- | --- | --- |
+| Griffiths | 3.1 | average potential over a sphere due to an interior charge | 6 | Must |
+| Griffiths | 3.5 | first uniqueness theorem | 5 | Must |
+| Griffiths | 3.7 | force on +q in the plane-image problem of Fig. 3.14 | 1 | Must |
+| Griffiths | 3.9 | force between a charge and a grounded sphere | 3 | Must |
+| Griffiths | 3.10 | grounded sphere with an added charge: second image | 4 | Must |
+| Griffiths | 3.12 | line charge above a grounded plane | 9 | Must |
+| Griffiths | 3.13 | charge between two semi-infinite grounded planes at right angles | 7 | Must |
+| Jackson | 2.1 | charge near a grounded plane: sigma, force, work, energy | 10 | Must |
+| Jackson | 2.2 | point charge inside a grounded hollow sphere (images) | 10 | Must |
+| Purcell | 3.13 *** | image charge for a grounded spherical shell | 3 | Must |
+| Griffiths | 3.2 | Earnshaw's theorem in one sentence | 6 | Should |
+| Griffiths | 3.6 | second uniqueness theorem via Green's identity | 5 | Should |
+| Griffiths | 3.11 | force between a charge and a sphere carrying total charge Q | 4 | Should |
+| Griffiths | 3.41 | two parallel grounded planes with a charge between | 7 | Should |
+| Jackson | 2.4 | point charge near an equally charged isolated sphere | 3 | Should |
+| Jackson | 2.5 | work to remove a charge from a grounded sphere | 2 | Should |
+| Purcell | 3.12 ** | image charges for two planes | 7 | Should |
+| Purcell | 3.14 | force from a conducting shell | 3 | Should |
+| Purcell | 3.15 *** | dipole from a shell in a uniform field | 8 | Should |
+| Griffiths | 3.40 | alternative derivation of the induced charge density | 1 | Could |
+| Purcell | 3.16 ** | image charge for a non-grounded sphere | 4 | Could |
+| Purcell | 3.37 ** | a charge between two plates (exercise) | 7 | Could |
+| Purcell | 3.43 ** | images from three planes (exercise) | 7 | Could |
+| Purcell | 3.51 *** | conducting sphere in a uniform field (exercise) | 8 | Could |
 
 ## Derive from scratch
 

@@ -1,7 +1,8 @@
 # Module 22: Synchrotron radiation and radiation reaction
 
-**Books:** Jackson **14.5** (frequency and angular distribution of the energy radiated by an accelerated charge), **14.6** (synchrotron radiation: this is the pulsar and magnetar emission mechanism, and the reason this module exists in your version of the plan and not in the first one), 16.1 to 16.3 (the Abraham-Lorentz force, the self-energy of a point charge, runaway solutions: *read, do not grind*). Afterwards: Rybicki and Lightman, *Radiative Processes in Astrophysics*, chapters 3 to 6 (picks up exactly where Jackson 14.6 stops). **Gaussian units.**
+**Books:** Jackson **14.5 Distribution in frequency and angle of the energy radiated (pp. 673 to 676)**, **14.6 Frequency spectrum for instantaneously circular motion: synchrotron radiation (pp. 676 to 683)**, 14.7 Undulators and wigglers (pp. 683 to 694; optional), 16.1 to 16.3 (pp. 745 to 755: *read, do not grind*); Griffiths §11.3 The Radiation Reaction (pp. 493 to 502); Rybicki and Lightman, chapters 3 to 6. **Gaussian units.**
 **Time:** 3 weeks (six sessions).
+**Pinned to:** Griffiths 5th ed. (2024), Jackson 3rd ed. (1999), Purcell and Morin 3rd ed. (2013, SI), Riley, Hobson and Bence 3rd ed. Page numbers are the printed book pages.
 
 ## Why this matters
 
@@ -37,21 +38,38 @@ Modules 20 and 21 (LW fields, Larmor, beaming).
 
 **Synchrotron source estimate:** (1) from $\gamma$ and $B$ get $\rho=\frac{\gamma mc^2}{eB}$ and $\omega_c$; (2) power $P=\frac43\sigma_Tc\gamma^2U_B$; (3) cooling time $\frac{\gamma mc^2}{P}$ and compare with the source age; (4) for a power-law population, spectral index $\frac{p-1}{2}$ (and $\frac p2$ above the cooling break); (5) check against observed frequencies ($\nu_c=4.2\times10^6\gamma^2B_{\rm G}$ Hz).
 
-## Reading plan
+## Reading plan (pinned to your editions)
 
-| Session | Task |
-| --- | --- |
-| A1 | Jackson 14.5; the pulse-duration argument for $\omega_c$ |
-| B1 | Exercises 1 to 3 |
-| A2 | Jackson 14.6; spectrum shape and polarization |
-| B2 | Exercises 4 and 5 |
-| A3 | Astrophysical mapping; Rybicki and Lightman chapter 6 (optional) |
-| B3 | Exercises 6 and 9 |
-| A4 | Jackson 16.1 to 16.3 |
-| B4 | Exercises 7 and 8 |
-| A5 | **Jackson targets** (exercise 10); the computational task |
-| B5 | The final blank-page gate |
-| A6/B6 | Spare sessions |
+A session is part A (read, derive) followed by part B (exercises), about two and a half hours in all. Page numbers are the printed ones.
+
+| Session | A: read and derive | B: do | Done when |
+| --- | --- | --- | --- |
+| 1 | Jackson 14.5 (pp. 673 to 676). The pulse-duration argument for $\omega_c$. | Module exercises 1 to 3. Jackson Problem 14.15. | $\omega_c\sim\gamma^3c/\rho$ from the pulse length. |
+| 2 | Jackson 14.6 (pp. 676 to 683). Spectrum shape and polarization. | Module exercises 4 and 5. Jackson Problems 14.17, 14.18. | Spectrum limits $\omega^{1/3}$ and $\omega^{1/2}e^{-\omega}$ obtained. |
+| 3 | Astrophysical mapping; Rybicki and Lightman chapter 6 (optional). | Module exercises 6 and 9. Jackson Problem 14.26 (the Crab nebula). | Pulsar and magnetar scales estimated. |
+| 4 | Jackson 16.1 to 16.3 (pp. 745 to 755). Griffiths §11.3 (pp. 493 to 502). | Module exercises 7 and 8. Griffiths Problems 11.19, 11.22. | Abraham-Lorentz force and the runaway solution. |
+| 5 | **Jackson targets**; the computational task. | Jackson Problems 14.12 and 16.1. Optional: Jackson 14.25, 14.27, 16.2. | Radiation damping force for an oscillator. |
+| 6 (spare) | The final blank-page gate. Spare. | Optional: Jackson Problems 16.9, 16.10. | Gate passed. |
+
+## Problem set (pinned)
+
+**Pin status:** Pinned: sections and problems in Jackson and Griffiths (verified).
+
+Tiers: **Must** (do all), **Should** (do when time allows), **Could** (only if the module is going well). A dash in the exercise column means the problem supports the reading rather than a module exercise. Purcell and Morin: stars give difficulty; problems are solved in Chapter 12 (the exercises are not).
+
+| Book | Problem | What it asks | Module exercise | Tier |
+| --- | --- | --- | --- | --- |
+| Jackson | 14.12 | harmonic-motion charge: frequency spectrum | 10 | Must |
+| Jackson | 14.15 | charge on a circular path: spectrum | 1 | Must |
+| Jackson | 14.26 | synchrotron radiation from the Crab nebula | 6 | Must |
+| Jackson | 16.1 | bound charged oscillator: radiation damping | 10 | Must |
+| Griffiths | 11.19 | radiation reaction included: driven oscillator | 7 | Should |
+| Griffiths | 11.22 | particle on a spring with radiation damping | 7 | Should |
+| Jackson | 14.17 | charge in a helical path | 4 | Should |
+| Jackson | 14.18 | frequency spectrum compared with the earlier formula | 5 | Should |
+| Jackson | 14.25 | approximations of Section 14.6 | 10 | Could |
+| Jackson | 14.27 | radiation at twice the fundamental frequency | 10 | Could |
+| Jackson | 16.2 | electron bound in an attractive potential | 8 | Could |
 
 ## Derive from scratch
 

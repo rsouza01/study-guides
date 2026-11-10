@@ -1,7 +1,8 @@
 # Module 20: Dipole radiation and the Lienard-Wiechert potentials (★)
 
-**Books:** Griffiths chapter 11 (radiation: dipole radiation, point charges, the Lienard-Wiechert potentials: the engine); Jackson 9.1 (fields and radiation of a localized oscillating source), 9.2 (electric dipole fields and radiation), 9.3 (magnetic dipole and electric quadrupole fields), **14.1 (Lienard-Wiechert potentials and fields of a point charge)**. **Skip** Jackson 9.6 to 9.8 (vector spherical harmonics: see the exclusion list). Jackson Chapter 9 is **SI**; Chapter 14 is **Gaussian**.
+**Books:** Griffiths §11.1 Dipole radiation (pp. 472 to 487) and §10.3 Point charges: the Liénard-Wiechert potentials and fields (pp. 456 to 468); Jackson 9.1 (pp. 407 to 410), 9.2 (pp. 410 to 413), 9.3 (pp. 413 to 416), **14.1 Liénard-Wiechert potentials and fields (pp. 661 to 665)**; Purcell and Morin 3rd ed. §5.7 (pp. 251 to 255) and Appendix H, radiation by an accelerated charge (p. 812). **Skip** Jackson 9.6 to 9.8. Jackson Chapter 9 is **SI**; Chapter 14 is **Gaussian**. This corrects an earlier pointer: the Liénard-Wiechert potentials are in Griffiths 10.3, not chapter 11.
 **Time:** 3 weeks (six sessions).
+**Pinned to:** Griffiths 5th ed. (2024), Jackson 3rd ed. (1999), Purcell and Morin 3rd ed. (2013, SI), Riley, Hobson and Bence 3rd ed. Page numbers are the printed book pages.
 
 ## Why this matters
 
@@ -39,21 +40,40 @@ Modules 11 (retarded Green function), 15 (field of a moving charge), 18 (covaria
 **Dipole radiation problem:** (1) find $\mathbf p$ (or $\mathbf J$) of the source; (2) write the far-field $\mathbf A$ or use the dipole formulas; (3) get $\mathbf B$, $\mathbf E$ in the radiation zone; (4) compute $\frac{dP}{d\Omega}=\frac{r^2}{2\mu_0}\mathrm{Re}(\mathbf E\times\mathbf B^*)\cdot\hat{\mathbf n}$; (5) integrate for the total power and check $\omega^4$ scaling.
 **LW derivation:** (1) write the retarded integral with the point-charge source; (2) integrate over $\mathbf x'$ with $\delta^3$, leaving a one-dimensional delta function in $t'$; (3) apply $\delta(f(t'))=\frac{\delta(t'-t_{\rm ret})}{|f'(t_{\rm ret})|}$ with $f'=1-\hat{\mathbf n}\cdot\boldsymbol\beta$; (4) take $-\nabla\Phi-\frac1c\partial_t\mathbf A$ with care for the dependence of $t_{\rm ret}$ on $\mathbf x$ and $t$.
 
-## Reading plan
+## Reading plan (pinned to your editions)
 
-| Session | Task |
-| --- | --- |
-| A1 | Griffiths 11.1; Jackson 9.1; the radiation-zone expansion |
-| B1 | Exercises 1 and 4 |
-| A2 | Jackson 9.2; dipole pattern and power |
-| B2 | Exercises 2 and 3 |
-| A3 | Jackson 9.3 (skim); Griffiths 11.2 (point charges) |
-| B3 | Exercise 5 and 6 |
-| A4 | Jackson 14.1; LW fields |
-| B4 | Exercises 7 to 9 |
-| A5 | **Jackson targets** (exercise 10); the computational task |
-| B5 | Spare session |
-| A6/B6 | Spare sessions |
+A session is part A (read, derive) followed by part B (exercises), about two and a half hours in all. Page numbers are the printed ones.
+
+| Session | A: read and derive | B: do | Done when |
+| --- | --- | --- | --- |
+| 1 | Griffiths §11.1 (pp. 472 to 487). Jackson 9.1 (pp. 407 to 410). The radiation-zone expansion. | Module exercises 1 and 4. Griffiths Problems 11.1, 11.2. | Radiation-zone fields of an oscillating dipole obtained. |
+| 2 | Jackson 9.2 (pp. 410 to 413). Dipole pattern and power. | Module exercises 2 and 3. Griffiths Problems 11.4, 11.5. | $P=\frac{\mu_0p_0^2\omega^4}{12\pi c}$ reproduced. |
+| 3 | Jackson 9.3 (skim). Griffiths §10.3 (pp. 456 to 468). | Module exercises 5 and 6. Griffiths Problems 10.17, 10.22. | LW potentials of a uniformly moving charge. |
+| 4 | Jackson 14.1 (pp. 661 to 665). LW fields. | Module exercises 7 to 9. Jackson Problem 14.1. Griffiths Problem 10.23. | Velocity and acceleration fields separated. |
+| 5 | **Jackson targets**; the computational task. | Jackson Problems 14.3 and 9.2. Optional: Griffiths Problem 10.16; Jackson 9.1. | Three routes, one field of a uniformly moving charge. |
+| 6 (spare) | Spare. | Optional: Jackson Problems 9.3, 9.15. | — |
+
+## Problem set (pinned)
+
+**Pin status:** Pinned: sections and problems in all three books (verified).
+
+Tiers: **Must** (do all), **Should** (do when time allows), **Could** (only if the module is going well). A dash in the exercise column means the problem supports the reading rather than a module exercise. Purcell and Morin: stars give difficulty; problems are solved in Chapter 12 (the exercises are not).
+
+| Book | Problem | What it asks | Module exercise | Tier |
+| --- | --- | --- | --- | --- |
+| Griffiths | 11.4 | rotating electric dipole as two oscillating dipoles | 2 | Must |
+| Griffiths | 10.22 | flux of E for a uniformly moving charge, from the LW fields | 5 | Must |
+| Jackson | 14.1 | verify the LW expressions for the fields | 7 | Must |
+| Jackson | 14.3 | Heaviside-Feynman expression for the field | 10 | Must |
+| Jackson | 9.2 | radiating quadrupole | 10 | Must |
+| Griffiths | 11.1 | retarded potentials of an oscillating dipole | 1 | Should |
+| Griffiths | 11.2 | coordinate-free dipole radiation fields | 1 | Should |
+| Griffiths | 11.5 | fields of an oscillating magnetic dipole | 2 | Should |
+| Griffiths | 10.17 | scalar potential of a charge in uniform motion | 5 | Should |
+| Griffiths | 10.23 | field of a moving infinite line charge from the LW fields | 7 | Should |
+| Griffiths | 10.16 | charge on a circle: fields | 10 | Could |
+| Jackson | 9.1 | a standard radiating system | 10 | Could |
+| Jackson | 9.3 | two halves of a metallic shell | 10 | Could |
 
 ## Derive from scratch
 

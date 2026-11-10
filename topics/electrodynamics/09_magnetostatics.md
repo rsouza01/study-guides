@@ -1,7 +1,8 @@
 # Module 09: Magnetostatics (trimmed to the field content)
 
-**Books:** Griffiths chapter 5 (the engine); Purcell chapters 5 to 6 (the fields of moving charges and the magnetic field: the best account of why magnetism is relativistic; read for understanding); Jackson 5.1 to 5.6 (Biot-Savart, the differential equations of magnetostatics, the vector potential, the vector potential of a localized current, magnetic moment, force and torque), 5.15 (Faraday's law: preview for Module 10), 5.16 (magnetic field energy). **Skip** Jackson 5.7 to 5.14 (magnetic media, ferromagnetism, boundary-value problems with $\mu$), 5.17 (self and mutual inductance: circuits) and 5.18 (eddy currents, magnetic diffusion).
+**Books:** Griffiths chapter 5 (the engine): §5.1 The Lorentz Force Law (pp. 209 to 221), §5.2 The Biot-Savart Law (pp. 221 to 226), §5.3 The Divergence and Curl of B (pp. 227 to 242), §5.4 Magnetic Vector Potential (pp. 243 to 254); Purcell and Morin 3rd ed. chapter 5 §5.2 to §5.9 (pp. 237 to 267: why magnetism is relativistic) and chapter 6 §6.1 to §6.5 (pp. 278 to 303), §6.3 vector potential (pp. 293 to 296); Jackson 5.1 to 5.6 (pp. 174 to 188), 5.15 Faraday's Law (pp. 208 to 212: preview for Module 10), 5.16 Energy in the Magnetic Field (pp. 212 to 215). **Skip** Jackson 5.7 to 5.14 (magnetic media, ferromagnetism), 5.17 and 5.18.
 **Time:** 3 weeks (six sessions). **Tier note:** if diagnostic problem 7 is right, pass the skip-test but still do exercises 2 and 6 and the Jackson target.
+**Pinned to:** Griffiths 5th ed. (2024), Jackson 3rd ed. (1999), Purcell and Morin 3rd ed. (2013, SI), Riley, Hobson and Bence 3rd ed. Page numbers are the printed book pages.
 
 ## Why this matters
 
@@ -38,21 +39,52 @@ Modules 01 to 03 (vector calculus, Gauss-type recipes); Module 02 (index notatio
 **Biot-Savart integration:** (1) draw $\mathbf x$, $\mathbf x'$, $\mathbf R$; (2) $d\mathbf B\propto\frac{I\,d\boldsymbol\ell'\times\mathbf R}{R^3}$; (3) kill components by symmetry; (4) express $R$ and the surviving component with one angle or one coordinate; (5) integrate and check far field ($\to$ dipole) and near field.
 **Vector potential:** (1) choose the integral $\mathbf A=\frac{\mu_0}{4\pi}\int\frac{\mathbf J}{R}$ or solve $\nabla^2\mathbf A=-\mu_0\mathbf J$ by symmetry; (2) take the curl; (3) check $\nabla\cdot\mathbf A=0$ and the direction of $\mathbf A$ (parallel to $\mathbf J$).
 
-## Reading plan
+## Reading plan (pinned to your editions)
 
-| Session | Task |
-| --- | --- |
-| A1 | Griffiths 5.1 to 5.2 (Lorentz force, Biot-Savart); Purcell chapter 6 |
-| B1 | Exercises 1 and 2 |
-| A2 | Griffiths 5.3 (divergence and curl of $\mathbf B$, Ampere's law); Ampere card |
-| B2 | Exercises 3 to 5 |
-| A3 | Griffiths 5.4 (vector potential); Purcell chapter 5 (why magnetism is relativistic) |
-| B3 | Exercise 6 |
-| A4 | Jackson 5.1 to 5.4 (compare with Griffiths); the magnetic dipole |
-| B4 | Exercises 7 and 8 |
-| A5 | Jackson 5.5 to 5.6, 5.15 to 5.16 |
-| B5 | Exercise 9 and **Jackson target** (exercise 10) |
-| A6/B6 | Spare sessions |
+A session is part A (read, derive) followed by part B (exercises), about two and a half hours in all. Page numbers are the printed ones.
+
+| Session | A: read and derive | B: do | Done when |
+| --- | --- | --- | --- |
+| 1 | Griffiths §5.1 to §5.2 (pp. 209 to 226). Purcell §6.1, §6.2, §6.4, §6.5 (pp. 278 to 292, 296 to 303). | Module exercises 1 and 2. Griffiths Problems 5.8, 5.9, 5.11. Purcell Problem 6.12. | Axis field of a loop and the field at the centre of a square loop reproduced. |
+| 2 | Griffiths §5.3 (pp. 227 to 242). The Ampère method card. | Module exercises 3 to 5. Griffiths Problems 5.14, 5.15, 5.17, 5.19. Purcell Problem 6.19 and Exercise 6.55 (Helmholtz coils). | Each Ampère problem begins with the symmetry argument and the loop drawn. |
+| 3 | Griffiths §5.4 (pp. 243 to 254). Purcell ch. 5 §5.2 to §5.9 (pp. 237 to 267) and §6.3 (pp. 293 to 296). | Module exercise 6. Griffiths Problems 5.25, 5.26, 5.27, 5.29. Purcell Problems 6.4, 6.5, 6.6. | $\mathbf A=\frac12\mathbf B\times\mathbf r$ checked for divergence and curl. |
+| 4 | Jackson 5.1 to 5.4 (pp. 174 to 181): compare with Griffiths. The magnetic dipole. | Module exercises 7 and 8. Griffiths Problems 5.36, 5.60. Purcell Problem 6.14. Jackson Problem 5.2. | Dipole potential and torque derived without notes. |
+| 5 | Jackson 5.5 to 5.6 (pp. 181 to 188), 5.15 (pp. 208 to 212), 5.16 (pp. 212 to 215). | Module exercise 9 and the **Jackson target** (exercise 10): Jackson Problems 5.3 and 5.13. Griffiths Problem 7.29 for the solenoid energy. | Energy per length of the solenoid equals $\frac12LI^2$ per length. |
+| 6 (spare) | Redo failed steps from `error_log.md`. | Optional: Jackson Problems 5.7, 5.9 (coil pair); Purcell Problem 6.22. | No repeated stuck step. |
+
+## Problem set (pinned)
+
+**Pin status:** Pinned: all sections (verified) and problems in all three books (verified). Purcell problems have full solutions in Chapter 12 (ch. 6: pp. 684 to 706).
+
+Tiers: **Must** (do all), **Should** (do when time allows), **Could** (only if the module is going well). A dash in the exercise column means the problem supports the reading rather than a module exercise. Purcell and Morin: stars give difficulty; problems are solved in Chapter 12 (the exercises are not).
+
+| Book | Problem | What it asks | Module exercise | Tier |
+| --- | --- | --- | --- | --- |
+| Griffiths | 5.8 | field at the centre of a square loop | 2 | Must |
+| Griffiths | 5.9 | field at P for the current configurations of the figure | 2 | Must |
+| Griffiths | 5.14 | field of a long cylindrical wire, two current distributions | 1 | Must |
+| Griffiths | 5.15 | thick slab carrying current | 5 | Must |
+| Griffiths | 5.25 | vector potential of a finite straight segment | 6 | Must |
+| Griffiths | 5.27 | A = -(1/2) r x B works for uniform B | 6 | Must |
+| Griffiths | 5.36 | dipole field in coordinate-free form | 7 | Must |
+| Jackson | 5.3 | finite solenoid, the target | 10 | Must |
+| Griffiths | 5.11 | field on the axis of a tightly wound solenoid | 2 | Should |
+| Griffiths | 5.17 | two coaxial solenoids with opposite currents | 4 | Should |
+| Griffiths | 5.19 | field of an infinite solenoid runs parallel to the axis | 4 | Should |
+| Griffiths | 5.26 | current density that produces a given A | 6 | Should |
+| Griffiths | 5.29 | vector potential above and below a surface current | 6 | Should |
+| Griffiths | 5.60 | dipole in a uniform field | 8 | Should |
+| Griffiths | 7.29 | energy stored in a section of a long solenoid | 9 | Should |
+| Purcell | 6.12 ** | field in the plane of a ring | 2 | Should |
+| Purcell | 6.19 *** | solenoid field inside and outside | 4 | Should |
+| Purcell | 6.55 ** | Helmholtz coils (exercise) | 3 | Should |
+| Purcell | 6.4 * | vector potential for a wire | 6 | Should |
+| Jackson | 5.13 | rotating uniformly charged sphere | 10 | Should |
+| Purcell | 6.5 ** | vector potential for a finite wire | 6 | Could |
+| Purcell | 6.6 *** | zero divergence of A | 6 | Could |
+| Purcell | 6.14 *** | far field from a square loop | 7 | Could |
+| Jackson | 5.2 | long solenoid of arbitrary cross section | 4 | Could |
+| Jackson | 5.7 | compact circular coil | 10 | Could |
 
 ## Derive from scratch
 

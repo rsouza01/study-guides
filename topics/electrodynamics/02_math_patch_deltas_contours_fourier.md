@@ -1,16 +1,17 @@
 # Module 02: Math patch: delta functions, Fourier transforms, index notation
 
-**Books:** Boas *Mathematical Methods in the Physical Sciences* (or Arfken, or Riley, Hobson and Bence): the chapters on Fourier series and transforms, and ordinary differential equations (Sturm-Liouville preview); Stewart is not enough here; Jackson 1.2 and its delta-function treatment; Griffiths 1.5 (the Dirac delta function).
-**Time:** 3 weeks (six sessions).
+**Books:** Griffiths §1.5 The Dirac Delta Function (pp. 43 to 50: 1.5.1 the divergence of $\hat r/r^2$, 1.5.2 the one-dimensional delta, 1.5.3 the three-dimensional delta); Jackson §1.2 Electric Field (p. 24, the delta-function treatment of point charges); Riley §13.1 Fourier transforms (pp. 433 to 453: the Dirac $\delta$-function, its relation to Fourier transforms, convolution, Parseval, Fourier transforms in higher dimensions), Chapter 12 Fourier series (pp. 415 to 426: 12.1 to 12.3 and 12.7), Chapter 26 tensors for index notation (§26.1 notation, §26.3 Cartesian tensors, §26.8 the tensors $\delta_{ij}$ and $\epsilon_{ijk}$, pp. 928 to 944), and for the ODE kit §15.1 (p. 492) and §17.4 Sturm-Liouville (p. 564). Stewart is not enough here.
+**Time:** 2 weeks (four sessions: three of work and one spare, now that the contour integrals live in the complex analysis guide). A session is a part A (read, derive) followed by a part B (exercises).
+**Pinned to:** Griffiths 5th ed. (2024), Jackson 3rd ed. (1999), Purcell and Morin 3rd ed. (2013, SI), Riley, Hobson and Bence 3rd ed. Page numbers are the printed book pages.
 **Moved out:** contour integration (Cauchy's theorem, residues, Jordan's lemma, closing contours, the $\pm i\epsilon$ prescription, the principal value and the Sokhotski formula) is no longer part of this module. It is taught in the complex analysis guide (CA04 to CA09) and is first needed in Module 11.
 
 ## Why this matters
 
 Stewart does not cover these, and you need all of them. **Delta-function calculus** gives $\nabla^2\frac1r=-4\pi\delta^3(\mathbf r)$ (Module 05) and the Lienard-Wiechert factor $(1-\boldsymbol\beta\cdot\hat{\mathbf n})^{-1}$ (Module 20). **Fourier transforms** turn differential equations into algebra. **Index notation** makes every vector identity a one-line proof. **ODE recipes** give the radial functions $r^\ell$, $r^{-\ell-1}$ and the Bessel and Legendre equations of Modules 06 to 08.
 
-## Task 0: build your reading map (30 minutes)
+## Task 0: orientation (10 minutes)
 
-In `notes/reading_map.md` make a table: *Module, Jackson sections, Griffiths chapter, Purcell chapter, Stewart sections, done? (Y/N)*. Use the overview's module list as a first guess; fix section numbers against your copies. This map is the reference for the whole guide.
+The reading map is no longer a separate file: every module now carries its own pinned reading plan and problem set, and the README lists the sections of all modules. Before Session 1, open Griffiths at p. 43, Jackson at p. 24 and Riley at p. 433 and check that the pages match what is pinned here; note any mismatch in `notes/error_log.md`.
 
 ## Skip-test (40 minutes, no notes)
 
@@ -47,16 +48,46 @@ Module 01.
 
 **Delta of a function:** (1) find the zeros $x_i$; (2) compute $|f'(x_i)|$; (3) $\sum\delta(x-x_i)/|f'(x_i)|$.
 
-## Reading plan
+## Reading plan (pinned to your editions)
 
-| Session | Task |
-| --- | --- |
-| A1 | Task 0; Griffiths 1.5; delta calculus drills (exercises 1 to 4) |
-| B1 | Exercises 3 and 4; Jackson 1.2 |
-| A2 | Boas: Fourier transforms; the Gaussian and Yukawa transforms |
-| B2 | Exercises 5 and 9; index notation |
-| A3 | Exercise 10; ODE kit; cheat sheet |
-| B3 | Spare session: redo the failed items of the skip-test |
+A session is part A (read, derive) followed by part B (exercises), about two and a half hours in all. Page numbers are the printed ones.
+
+| Session | A: read and derive | B: do | Done when |
+| --- | --- | --- | --- |
+| 1 | Task 0 (orientation, 10 minutes: open each book at the pinned page). Griffiths §1.5.1 to §1.5.3 (pp. 43 to 50). | Griffiths Problem 1.44 (delta-function integrals (sifting property)), Problem 1.45 (delta-function integrals with delta(3x) and compositions), Problem 1.46 (x d/dx delta(x) = -delta(x); the step function and delta), Problem 1.47 (charge densities with delta functions: point charge, dipole, spherical shell); module exercises 1 and 2. | Every delta integral in 1.44 and 1.45 evaluated without hesitation; 1.47(c) gives total charge Q. |
+| 2 | Jackson §1.2 (p. 24). Griffiths Problem 1.48 (3D delta-function integrals) and Problem 1.64 (check that the Laplacian of 1/r is -4 pi delta, another way). | Module exercises 3 and 4. Jackson Problem 1.2 (delta function in general orthogonal coordinates (limit of a Gaussian)) and Problem 1.3 (charge distributions written with delta functions (shell, cylinder, disc)) (p. 51). | The flux argument for the Laplacian of 1/r written on one page; Jackson 1.3(a) agrees with your Griffiths 1.47(c). |
+| 3 | Riley §13.1 (pp. 433 to 453); Riley §26.1, §26.3, §26.8 (pp. 928 to 944). | Module exercises 5, 9 and 10. Riley Exercises 13.1, 13.3, 13.5, 13.7 (pp. 460 to 462) and 26.1, 26.5, 26.9 (pp. 977 to 980). | Gaussian transform and Yukawa transform done; both index-notation identities proved with $\epsilon_{ijk}$. |
+| 4 (spare) | ODE kit: Riley §15.1 (p. 492) and §17.4 (p. 564), read only; cheat sheet. | Redo the failed items of the skip-test. | Cheat sheet written; skip-test items 1 to 5 all pass. |
+
+## Problem set (pinned)
+
+**Pin status:** Pinned: Griffiths and Jackson sections and problems (verified), Riley sections (verified). Riley exercises are pinned below (odd-numbered ones have worked solutions in the Student Solution Manual).
+
+Tiers: **Must** (do all), **Should** (do when time allows), **Could** (only if the module is going well). A dash in the exercise column means the problem supports the reading rather than a module exercise. Purcell and Morin: stars give difficulty; problems are solved in Chapter 12 (the exercises are not).
+
+| Book | Problem | What it asks | Module exercise | Tier |
+| --- | --- | --- | --- | --- |
+| Griffiths | 1.44 | delta-function integrals (sifting property) | 1 | Must |
+| Griffiths | 1.45 | delta-function integrals with delta(3x) and compositions | 1 | Must |
+| Griffiths | 1.47 | charge densities with delta functions: point charge, dipole, spherical shell | 4 | Must |
+| Jackson | 1.3 | charge distributions written with delta functions (shell, cylinder, disc) | 2 | Must |
+| Riley | 13.1 | Fourier transform of exp(-\vert t\vert ) | 5 | Must |
+| Riley | 13.5 | transform the equation phi'' - K^2 phi = f(x): the screened-Poisson pattern | 9 | Must |
+| Riley | 26.1 | Cartesian-tensor definition: basic properties | 10 | Must |
+| Riley | 26.6 | vector identities by tensor methods (even number: no worked solution) | 10 | Must |
+| Griffiths | 1.46 | x d/dx delta(x) = -delta(x); the step function and delta | 1 | Should |
+| Griffiths | 1.48 | 3D delta-function integrals | 2 | Should |
+| Griffiths | 1.64 | check that the Laplacian of 1/r is -4 pi delta, another way | 3 | Should |
+| Riley | 13.3 | Fourier transform of H(x-a)exp(-bx) | 5 | Should |
+| Riley | 13.7 | Fourier transform of the unit rectangular distribution | 5 | Should |
+| Riley | 12.5 | Fourier series of f(x) = x | 5 | Should |
+| Riley | 26.5 | the quotient law | 10 | Should |
+| Griffiths | 1.49 | integral of e^{-r} times the divergence of r-hat/r^2, by two methods | 3 | Could |
+| Jackson | 1.2 | delta function in general orthogonal coordinates (limit of a Gaussian) | 2 | Could |
+| Purcell | 2.26 ** | the delta function (solved in chapter 12) | 1 | Could |
+| Riley | 13.26 | f(x) as an integral over the delta function | 1 | Could |
+| Riley | 12.1 | orthogonality relations of Fourier series | 5 | Could |
+| Riley | 26.9 | determinant identity with epsilon_ijk | 10 | Could |
 
 ## Derive from scratch
 

@@ -1,7 +1,8 @@
 # Module 19: Causality, analyticity and dispersion relations (★)
 
-**Books:** Jackson 7.8 (superposition of waves: group velocity and pulse propagation in a dispersive medium), 7.9 (pulse spreading: light), **7.10 (causality in the connection between $\mathbf D$ and $\mathbf E$; the Kramers-Kronig relations)**, 7.11 (arrival of a signal: optional, lovely); Griffiths 9.3 to 9.4 (waves in matter, absorption and dispersion). Module 02 (contour integrals, Sokhotski) is the prerequisite.
+**Books:** Jackson 7.8 Superposition of waves; group velocity (pp. 322 to 326), 7.9 Spreading of a pulse (pp. 326 to 330), **7.10 Causality in the connection between D and E; Kramers-Kronig relations (pp. 330 to 335)**, 7.11 Arrival of a signal (pp. 335 to 339; optional); Griffiths §9.3 (pp. 408 to 418) and §9.4 Absorption and dispersion (pp. 418 to 430); Purcell and Morin 3rd ed. §10.13 (p. 504) and §10.15 (p. 507). Chapter CA08 of the complex analysis guide is the prerequisite.
 **Time:** 2 weeks (four sessions).
+**Pinned to:** Griffiths 5th ed. (2024), Jackson 3rd ed. (1999), Purcell and Morin 3rd ed. (2013, SI), Riley, Hobson and Bence 3rd ed. Page numbers are the printed book pages.
 
 ## Why this matters
 
@@ -37,18 +38,35 @@ Module 02 (residues, principal value, $\frac{1}{x\pm i\epsilon}$); Module 12 (pl
 
 **Kramers-Kronig derivation:** (1) write $\chi(\omega)=\int_0^\infty G(\tau)e^{i\omega\tau}d\tau$ and state analyticity in $\mathrm{Im}\,\omega>0$; (2) consider $\oint\frac{\chi(\omega')}{\omega'-\omega}d\omega'$ with $\omega$ real, closing in the upper half-plane (the semicircle vanishes if $\chi\to0$ fast enough); (3) indent around the pole (half-residue) to get $\mathrm P\!\!\int\frac{\chi(\omega')}{\omega'-\omega}d\omega'=i\pi\chi(\omega)$; (4) split into $\mathrm{Re}$ and $\mathrm{Im}$; (5) use $\chi(-\omega)=\chi^*(\omega)$ to fold onto $\omega'>0$.
 
-## Reading plan
+## Reading plan (pinned to your editions)
 
-| Session | Task |
-| --- | --- |
-| A1 | Jackson 7.8 to 7.9 (skim 7.9); Griffiths 9.3 to 9.4; group velocity (exercises 1 and 6) |
-| B1 | Exercises 1 and 6 |
-| A2 | Jackson 7.10; the derivation (method card) |
-| B2 | Exercises 2 to 4 |
-| A3 | Sum rules; pulsar dispersion |
-| B3 | Exercises 5 and 7 |
-| A4 | Jackson 7.11 (optional); **Jackson targets** (exercise 10) |
-| B4 | Spare session |
+A session is part A (read, derive) followed by part B (exercises), about two and a half hours in all. Page numbers are the printed ones.
+
+| Session | A: read and derive | B: do | Done when |
+| --- | --- | --- | --- |
+| 1 | Jackson 7.8 to 7.9 (pp. 322 to 330; skim 7.9). Griffiths §9.3 to §9.4 (pp. 408 to 430). Group velocity. | Module exercises 1 and 6. Griffiths Problems 9.24, 9.27. Jackson Problem 7.19. | Group velocity from $\omega(k)$. |
+| 2 | Jackson 7.10 (pp. 330 to 335). The derivation (method card). | Module exercises 2 to 4. Jackson Problem 7.21. | Kramers-Kronig derived from causality and a closed contour. |
+| 3 | Sum rules; pulsar dispersion. | Module exercises 5 and 7. Jackson Problems 7.13 and 7.15. | Dispersion measure delay obtained for the interstellar medium. |
+| 4 | Jackson 7.11 (optional). | **Jackson targets:** Problems 7.22 and 7.19. Spare. Optional: Griffiths Problems 9.26, 9.34. | Real part of $\epsilon$ computed from the imaginary part. |
+
+## Problem set (pinned)
+
+**Pin status:** Pinned: sections and problems in Jackson and Griffiths (verified).
+
+Tiers: **Must** (do all), **Should** (do when time allows), **Could** (only if the module is going well). A dash in the exercise column means the problem supports the reading rather than a module exercise. Purcell and Morin: stars give difficulty; problems are solved in Chapter 12 (the exercises are not).
+
+| Book | Problem | What it asks | Module exercise | Tier |
+| --- | --- | --- | --- | --- |
+| Jackson | 7.19 | 1D wave packet: spreading | 10 | Must |
+| Jackson | 7.22 | real part of epsilon from Kramers-Kronig | 10 | Must |
+| Griffiths | 9.24 | relation between wave velocity and group velocity | 1 | Should |
+| Griffiths | 9.27 | group velocity from the dispersion relation | 1 | Should |
+| Jackson | 7.13 | stylized model of the ionosphere | 7 | Should |
+| Jackson | 7.15 | partially ionized interstellar medium | 7 | Should |
+| Jackson | 7.21 | nonlocal connection between D and E | 2 | Should |
+| Griffiths | 9.26 | width of the anomalous-dispersion region | 10 | Could |
+| Griffiths | 9.34 | Fourier inversion theorem and wave packets | 10 | Could |
+| Jackson | 7.23 | extension of Kramers-Kronig to conductors | 4 | Could |
 
 ## Derive from scratch
 

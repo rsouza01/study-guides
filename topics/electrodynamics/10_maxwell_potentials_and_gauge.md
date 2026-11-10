@@ -1,7 +1,8 @@
 # Module 10: Faraday, Maxwell, potentials and gauge (★)
 
-**Books:** Griffiths chapter 7 (Faraday's law, Maxwell's equations; the engine) and 10.1 (the potential formulation, gauge transformations); Purcell chapters 7 and 9 (induction; Maxwell's equations and electromagnetic waves); Jackson 5.15 (Faraday's law), 6.1 (displacement current and Maxwell's equations), 6.2 (vector and scalar potentials), **6.3 (gauge transformations, Lorenz gauge, Coulomb gauge)**.
+**Books:** Griffiths §7.1 (pp. 298 to 316), §7.2 (pp. 316 to 335), §7.3 Maxwell's Equations (pp. 335 to 347), §10.1 The Potential Formulation (pp. 442 to 450); Purcell and Morin 3rd ed. chapter 7 §7.1 to §7.5 (pp. 343 to 359), §7.10 (p. 368), chapter 9 §9.1 to §9.3 (pp. 430 to 438); Jackson 5.15 (pp. 208 to 212), 6.1 Maxwell's displacement current (pp. 237 to 239), 6.2 Vector and scalar potentials (pp. 239 to 240), **6.3 Gauge transformations, Lorenz gauge, Coulomb gauge (pp. 240 to 243)**.
 **Time:** 2 weeks (four sessions).
+**Pinned to:** Griffiths 5th ed. (2024), Jackson 3rd ed. (1999), Purcell and Morin 3rd ed. (2013, SI), Riley, Hobson and Bence 3rd ed. Page numbers are the printed book pages.
 
 ## Why this matters
 
@@ -37,18 +38,41 @@ Modules 03 and 09; Module 01 (the identities $\nabla\times\nabla f=0$, $\nabla\c
 **Faraday emf problem:** (1) define the loop and its orientation; (2) compute the flux $\Phi_B(t)$ through it (including motion of the loop or changing $\mathbf B$); (3) $\mathcal E=-\frac{d\Phi_B}{dt}$; (4) find the direction (Lenz); (5) check the power balance (mechanical work $=$ electrical dissipation).
 **Potential formulation:** (1) write $\mathbf E=-\nabla\Phi-\partial_t\mathbf A$, $\mathbf B=\nabla\times\mathbf A$; (2) pick a gauge; (3) substitute in the two inhomogeneous equations; (4) simplify with the gauge condition; (5) recognize the wave equations.
 
-## Reading plan
+## Reading plan (pinned to your editions)
 
-| Session | Task |
-| --- | --- |
-| A1 | Griffiths 7.1 to 7.2 (Ohm, Faraday); Purcell chapter 7; Faraday method card |
-| B1 | Exercises 1 to 3 |
-| A2 | Griffiths 7.3 (Maxwell's equations, displacement current); Jackson 6.1 |
-| B2 | Exercise 4 |
-| A3 | Griffiths 10.1; Jackson 6.2 to 6.3 |
-| B3 | Exercises 5 to 8 |
-| A4 | **Jackson target** (exercise 9 to 10); redo the Lorenz-gauge derivation from a blank page |
-| B4 | Spare session |
+A session is part A (read, derive) followed by part B (exercises), about two and a half hours in all. Page numbers are the printed ones.
+
+| Session | A: read and derive | B: do | Done when |
+| --- | --- | --- | --- |
+| 1 | Griffiths §7.1 to §7.2 (pp. 298 to 335). Purcell §7.1 to §7.5 (pp. 343 to 359). The Faraday method card. | Module exercises 1 to 3. Griffiths Problems 7.7, 7.10, 7.8. Purcell Problems 7.3 and 7.2. | Rod and rotating loop agree by flux rule and by Lorentz force. |
+| 2 | Griffiths §7.3 (pp. 335 to 347). Jackson 6.1 (pp. 237 to 239). Purcell §9.1 to §9.3. | Module exercise 4. Griffiths Problems 7.35 and 5.22. Purcell Problems 9.1 and 9.4. | Displacement current fixes Ampère in the capacitor gap. |
+| 3 | Griffiths §10.1 (pp. 442 to 450). Jackson 6.2 to 6.3 (pp. 239 to 243). | Module exercises 5 to 8. Griffiths Problems 10.1, 10.4, 10.5, 10.6. | Gauge invariance of E and B shown; Coulomb gauge scalar potential instantaneous. |
+| 4 | **Jackson target:** Problem 6.20 (with 6.21, 6.22). Redo the Lorenz-gauge derivation from a blank page. | Module exercises 9 and 10; spare. | Wave equations for $\Phi$ and $\mathbf A$ derived in under 15 minutes. |
+
+## Problem set (pinned)
+
+**Pin status:** Pinned: sections and problems in all three books (verified).
+
+Tiers: **Must** (do all), **Should** (do when time allows), **Could** (only if the module is going well). A dash in the exercise column means the problem supports the reading rather than a module exercise. Purcell and Morin: stars give difficulty; problems are solved in Chapter 12 (the exercises are not).
+
+| Book | Problem | What it asks | Module exercise | Tier |
+| --- | --- | --- | --- | --- |
+| Griffiths | 7.7 | metal bar sliding on rails | 1 | Must |
+| Griffiths | 7.10 | square loop on a rotating shaft | 2 | Must |
+| Griffiths | 7.35 | fat wire with a gap: displacement current | 3 | Must |
+| Griffiths | 10.1 | differential equations for V and A | 5 | Must |
+| Jackson | 6.20 | causality in the Coulomb gauge, an example | 9 | Must |
+| Griffiths | 7.8 | square loop on a table near a wire | 1 | Should |
+| Griffiths | 5.22 | is Ampere's law consistent with charge conservation | 4 | Should |
+| Griffiths | 10.4 | a (V, A) pair: find the fields | 6 | Should |
+| Griffiths | 10.5 | which potentials are in which gauge | 6 | Should |
+| Griffiths | 10.6 | Coulomb gauge can always be reached | 8 | Should |
+| Purcell | 7.3 ** | pulling a square frame | 1 | Should |
+| Purcell | 9.1 ** | the missing term | 4 | Should |
+| Purcell | 7.2 | what's doing work (B into the page) | 1 | Could |
+| Purcell | 9.4 ** | B in a discharging capacitor | 4 | Could |
+| Jackson | 6.21 | dipole in the Coulomb gauge | 9 | Could |
+| Jackson | 6.22 | slowly moving off-centre dipole | 9 | Could |
 
 ## Derive from scratch
 

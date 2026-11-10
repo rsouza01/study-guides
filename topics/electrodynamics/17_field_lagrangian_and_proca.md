@@ -1,7 +1,8 @@
 # Module 17: The field Lagrangian and the Proca field (★★★: the second of the two weeks that justify the guide)
 
-**Books:** Jackson **12.7** (the Lagrangian for the electromagnetic field), **12.8** (the Proca Lagrangian and photon mass), 12.9 (effective photon mass in superconductivity, the London penetration depth: optional but strongly recommended: the Meissner effect is the Higgs mechanism in its natural habitat); Landau and Lifshitz *The Classical Theory of Fields* (from the start: builds electrodynamics from the action); your mechanics guide, Modules 17 to 19 (fields, stress-energy, Noether). **Gaussian units, signature $(+,-,-,-)$.**
+**Books:** Jackson **12.7 The Lagrangian for the electromagnetic field (pp. 598 to 600)**, **12.8 Proca Lagrangian; photon mass effects (pp. 600 to 603)**, 12.9 Effective photon mass in superconductivity; London penetration depth (pp. 603 to 605); Griffiths §12.3.5 (pp. 572 to 574); Purcell and Morin 3rd ed. Appendix I Superconductivity (p. 817); Riley Exercise 21.27 (the Klein-Gordon Green function); Landau and Lifshitz, *The Classical Theory of Fields* (from the start); your mechanics guide, Modules 17 to 19. **Gaussian units, signature (+,-,-,-).**
 **Time:** 3 weeks (six sessions). Give this a full week of attention: when you later open a QFT text at Klein-Gordon, you will already have derived most of the chapter.
+**Pinned to:** Griffiths 5th ed. (2024), Jackson 3rd ed. (1999), Purcell and Morin 3rd ed. (2013, SI), Riley, Hobson and Bence 3rd ed. Page numbers are the printed book pages.
 
 ## Why this matters
 
@@ -35,21 +36,34 @@ Modules 10, 11, 14, 15 and 16; mechanics guide Modules 17 to 19 (field Euler-Lag
 
 **Varying an action:** (1) write $\mathcal L$ in terms of the independent fields; (2) compute $\frac{\partial\mathcal L}{\partial(\partial_\mu A_\nu)}$ (careful with the antisymmetric $F_{\mu\nu}$: the derivative of $F_{\alpha\beta}F^{\alpha\beta}$ gives $4F^{\mu\nu}$) and $\frac{\partial\mathcal L}{\partial A_\nu}$; (3) assemble the Euler-Lagrange equation; (4) take the divergence to find constraints; (5) interpret (gauge invariance, conservation, degrees of freedom).
 
-## Reading plan
+## Reading plan (pinned to your editions)
 
-| Session | Task |
-| --- | --- |
-| A1 | Jackson 12.7; the variation of the action (derivation 1) |
-| B1 | Exercises 1 and 2 |
-| A2 | The canonical momenta; the Hamiltonian; Landau and Lifshitz on the action |
-| B2 | Exercises 3 |
-| A3 | Jackson 12.8; Proca (derivation 3 and 4) |
-| B3 | Exercises 4 to 6 |
-| A4 | The Yukawa solution; counting degrees of freedom |
-| B4 | Exercises 7 to 9 |
-| A5 | Jackson 12.9; the Meissner effect |
-| B5 | **Jackson targets** (exercise 10); write the deliverable `m17-proca.md` |
-| A6/B6 | Spare sessions; the month gate (items 7 and 8) |
+A session is part A (read, derive) followed by part B (exercises), about two and a half hours in all. Page numbers are the printed ones.
+
+| Session | A: read and derive | B: do | Done when |
+| --- | --- | --- | --- |
+| 1 | Jackson 12.7 (pp. 598 to 600). The variation of the action (derivation 1). | Module exercises 1 and 2. Jackson Problem 12.14. | Maxwell equations from $\mathcal L$ by varying $A_\mu$. |
+| 2 | Canonical momenta; the Hamiltonian; Landau and Lifshitz on the action. | Module exercise 3. | $\Pi^0=0$ noticed and interpreted. |
+| 3 | Jackson 12.8 (pp. 600 to 603). Proca (derivations 3 and 4). | Module exercises 4 to 6. Jackson Problem 12.16. | Proca equations and $\partial_\mu A^\mu=0$ derived. |
+| 4 | The Yukawa solution; counting degrees of freedom. | Module exercises 7 to 9. Jackson Problem 12.15. | Yukawa potential of a static source; three polarizations. |
+| 5 | Jackson 12.9 (pp. 603 to 605). The Meissner effect. Purcell Appendix I. | **Jackson targets:** Problems 12.15 and 12.16 (at least one). Optional: Problems 12.17 and 12.20. Write `m17-proca.md`. | London depth from the massive photon. |
+| 6 (spare) | Spare; the month gate (items 7 and 8). | Optional: Jackson Problem 12.21; Riley Exercise 21.27. | Gate items passed. |
+
+## Problem set (pinned)
+
+**Pin status:** Pinned: sections and problems in Jackson and Riley (verified).
+
+Tiers: **Must** (do all), **Should** (do when time allows), **Could** (only if the module is going well). A dash in the exercise column means the problem supports the reading rather than a module exercise. Purcell and Morin: stars give difficulty; problems are solved in Chapter 12 (the exercises are not).
+
+| Book | Problem | What it asks | Module exercise | Tier |
+| --- | --- | --- | --- | --- |
+| Jackson | 12.15 | Proca field of a steady localized source | 10 | Must |
+| Jackson | 12.16 | Proca Lagrangian: field equations and stress tensor | 10 | Must |
+| Jackson | 12.14 | alternative Lagrangian density for the field | 1 | Should |
+| Riley | 21.27 | Green function of the Klein-Gordon equation in a half-space | 7 | Should |
+| Jackson | 12.17 | Thomson scattering of Proca waves | 10 | Could |
+| Jackson | 12.20 | superconductor filling a half-space | 9 | Could |
+| Jackson | 12.21 | two-fluid model of a superconductor | 9 | Could |
 
 ## Derive from scratch
 

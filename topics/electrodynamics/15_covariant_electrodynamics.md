@@ -1,7 +1,8 @@
 # Module 15: Covariant electrodynamics (★)
 
-**Books:** Jackson **11.9** (invariance of charge; covariance of electrodynamics), **11.10** (transformation of the electromagnetic fields), 11.12 (notation note); Griffiths 12.3 (relativistic electrodynamics: how magnetism is a relativistic effect; the field tensor); Purcell chapter 5 (the fields of moving charges, the cleanest account of why magnetism is relativistic). **Units: Gaussian** from here (Jackson Chapter 11 onward); the SI dictionary is in the appendix.
+**Books:** Jackson **11.9 Invariance of electric charge; covariance of electrodynamics (pp. 553 to 558)**, **11.10 Transformation of electromagnetic fields (pp. 558 to 561)**, 11.12 notation note (p. 565); Griffiths §12.3.1 to §12.3.2 (pp. 554 to 566) and §12.3.3 to §12.3.4 (pp. 566 to 572); Purcell and Morin 3rd ed. §5.5 to §5.9 (pp. 243 to 267), §6.7 How the fields transform (pp. 306 to 314). **Units: Gaussian** from here.
 **Time:** 2 weeks (four sessions).
+**Pinned to:** Griffiths 5th ed. (2024), Jackson 3rd ed. (1999), Purcell and Morin 3rd ed. (2013, SI), Riley, Hobson and Bence 3rd ed. Page numbers are the printed book pages.
 
 ## Why this matters
 
@@ -36,18 +37,37 @@ Modules 10, 13 and 14 (four-vectors and index placement).
 **Field transformation:** (1) decompose $\mathbf E$ and $\mathbf B$ into components parallel and perpendicular to $\boldsymbol\beta$; (2) apply the four laws; (3) check an invariant ($E^2-B^2$, $\mathbf E\cdot\mathbf B$) in both frames; (4) check the limit $\beta\to0$.
 **Field of a moving charge:** (1) write the Coulomb field in the rest frame $S'$; (2) transform the coordinates of the field point to $S'$ using $x'=\gamma(x-vt)$; (3) transform $\mathbf E'$ back to $S$ (parallel unchanged, perpendicular $\gamma$-enhanced); (4) express in terms of the present position.
 
-## Reading plan
+## Reading plan (pinned to your editions)
 
-| Session | Task |
-| --- | --- |
-| A1 | Jackson 11.9; Griffiths 12.3.1 to 12.3.2; the $F^{\mu\nu}$ matrix |
-| B1 | Exercises 1 and 2 |
-| A2 | Jackson 11.10; the field-transformation derivation |
-| B2 | Exercises 3 and 4 |
-| A3 | Purcell chapter 5; magnetism from relativity (exercise 7) |
-| B3 | Exercises 5 to 8 |
-| A4 | **Jackson targets** (exercise 10) |
-| B4 | Spare session; the month gate |
+A session is part A (read, derive) followed by part B (exercises), about two and a half hours in all. Page numbers are the printed ones.
+
+| Session | A: read and derive | B: do | Done when |
+| --- | --- | --- | --- |
+| 1 | Jackson 11.9 (pp. 553 to 558). Griffiths §12.3.1 to §12.3.2 (pp. 554 to 566). The $F^{\mu\nu}$ matrix. | Module exercises 1 and 2. Griffiths Problems 12.44, 12.49. | $F^{\mu\nu}$ written in both signatures. |
+| 2 | Jackson 11.10 (pp. 558 to 561). The field-transformation derivation. | Module exercises 3 and 4. Griffiths Problems 12.47, 12.52. | $\mathbf E'$ and $\mathbf B'$ under a boost derived from the tensor. |
+| 3 | Purcell §5.5 to §5.9 and §6.7. Magnetism from relativity (exercise 7). | Module exercises 5 to 8. Purcell Problems 6.22, 6.24, 6.27. Griffiths Problems 12.55, 12.56. | Magnetic force between two wires obtained as a Lorentz-contraction effect. |
+| 4 | **Jackson targets.** | Jackson Problems 11.15 and 11.18; also 11.14. Spare; the month gate. | Both invariants and the frame with $\mathbf E\parallel\mathbf B$ found. |
+
+## Problem set (pinned)
+
+**Pin status:** Pinned: sections and problems in all three books (verified).
+
+Tiers: **Must** (do all), **Should** (do when time allows), **Could** (only if the module is going well). A dash in the exercise column means the problem supports the reading rather than a module exercise. Purcell and Morin: stars give difficulty; problems are solved in Chapter 12 (the exercises are not).
+
+| Book | Problem | What it asks | Module exercise | Tier |
+| --- | --- | --- | --- | --- |
+| Griffiths | 12.49 | E.B is relativistically invariant | 1 | Must |
+| Griffiths | 12.56 | continuity equation directly from the field tensor | 9 | Must |
+| Jackson | 11.15 | static E and B: the frame with parallel fields | 10 | Must |
+| Jackson | 11.18 | fields of a charge in uniform motion | 10 | Must |
+| Griffiths | 12.44 | why E cannot have a z component in the figure | 1 | Should |
+| Griffiths | 12.47 | charges at rest and moving: forces in two frames | 4 | Should |
+| Griffiths | 12.52 | remaining five parts of the transformation law | 2 | Should |
+| Griffiths | 12.55 | straight wire along z with charge density: fields in a boosted frame | 7 | Should |
+| Purcell | 6.22 ** | zero force in any frame | 7 | Should |
+| Purcell | 6.24 ** | E and B for a point charge | 7 | Should |
+| Jackson | 11.14 | Lorentz scalars from the field tensor and its dual | 10 | Should |
+| Purcell | 6.27 *** | special cases of the Lorentz transformation of E and B | 3 | Could |
 
 ## Derive from scratch
 

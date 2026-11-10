@@ -3,14 +3,14 @@
 **Target:** the theoretical minimum for QFT and QCD, plus the radiation physics of compact objects (pulsar and magnetar emission is a co-equal goal).
 **Starting point, stated honestly:** you remember the *concepts* of electromagnetism and can talk about them, but you cannot yet do the math or solve the exercises. This guide is built on that fact. It is not Jackson with a short warm-up: it is a **problem-solving ramp** (Stewart $\to$ Griffiths and Purcell $\to$ Jackson) in which every Jackson topic is preceded by the easier version of the same technique.
 **Format:** an overview (this file), one file per module, and an appendix. Each module has the skeleton of your other guides: why it matters, a skip-test, prerequisites, a topic checklist, **method cards** (step-by-step recipes for the problem types), a reading plan, derivations, ten exercises with expected results, pitfalls, gate questions, a cheat sheet.
-**Books you own:** Stewart *Calculus* (8th ed.), Griffiths *Introduction to Electrodynamics*, Purcell and Morin *Electricity and Magnetism*, Jackson *Classical Electrodynamics* (3rd ed.).
+**Books you own (pinned editions):** Stewart *Calculus* (8th ed.); Griffiths *Introduction to Electrodynamics*, 5th ed. (2024); Purcell and Morin *Electricity and Magnetism*, 3rd ed. (2013, SI units, problems solved in its Chapter 12); Jackson *Classical Electrodynamics*, 3rd ed. (1999); Riley, Hobson and Bence *Mathematical Methods for Physics and Engineering*, 3rd ed.
 
-> **Honesty notes.**
-> 1. This rebuilds your existing 27-week Jackson roadmap (the three threads, the cut lists, the Stewart prelude, the compact-object goal) in the multi-file format, and adds the ramp. The Stewart prelude is kept in full (Module 01).
-> 2. **Section numbers for Jackson are recalled, not verified**, and your roadmap already warned that they drift by a section here and there. Griffiths chapter numbers (1 to 12) are stable across editions. Purcell chapter numbers are from the 3rd edition as I recall it. Problems are *described* (numbering-independent) except where your own roadmap gave Stewart exercise numbers or Jackson problem numbers (marked "~" as search hints). Task 0 of Module 02 builds your reading map. If you upload the tables of contents and problem lists I will pin every module exactly, as was done for Zettili.
-> 3. Numerical check values are from memory; verify them as you go.
-> 4. Units: Jackson 3rd edition is **SI in Chapters 1 to 10 and Gaussian from Chapter 11**. Griffiths is SI; Purcell 3rd edition is SI (the 2nd edition is Gaussian). The appendix has a Gaussian-to-SI dictionary.
-
+> **Verification status (this version).**
+> 1. **Pinned to your copies.** Section and page numbers are the printed ones from the contents pages of Griffiths (5th ed.), Jackson (3rd ed.), Purcell and Morin (3rd ed.) and Riley; every problem number in a module's "Problem set" table was checked against the problem lists in your PDFs, and the short description of each problem was written from its statement.
+> 2. **Jackson's scan** has an OCR text layer. Problem numbers and openings were read from it; a few page numbers on the contents pages were doubtful and are left out (for example 11.6) rather than guessed. Jackson problems are cited by number and topic: read the statement in the book before you start.
+> 3. **Not re-pinned:** Module 01 (Stewart, kept as it was) and Module 23 (synthesis: it reuses the problems of the earlier modules). Riley exercises are cited only where they exist; odd-numbered ones have worked solutions in the Student Solution Manual, even-numbered ones do not. Purcell and Morin problems are solved in its Chapter 12; its exercises are not.
+> 4. Numerical check values in the exercise lists are from memory unless a book gives the answer; verify them as you go.
+> 5. Units: Jackson 3rd edition is **SI in Chapters 1 to 10 and Gaussian from Chapter 11**. Griffiths and Purcell and Morin (3rd ed.) are SI. The appendix has a Gaussian-to-SI dictionary.
 ---
 
 ## 1. The honest accounting
@@ -40,6 +40,15 @@ A week means two sessions of 2 to 3 hours. This is long, because your starting p
 3. Read Purcell for the picture (short).
 4. Read the Jackson section; do the **Jackson target** problem(s).
 5. Redo one derivation from a blank page.
+
+## 2a. How to read a pinned plan (new)
+
+Each module from 02 to 22 now opens with four things: the exact **sections and pages** (the *Books* line), a **session table**, a **problem set** table, and the unchanged method cards, derivations and exercises.
+
+- **Session = part A + part B.** Part A is reading and derivation; part B is exercises. A session is two to three hours, and a week is two sessions. "Spare" means the B half (or a whole session) is free for the error log.
+- **Problem set tiers.** Must, Should, Could, as in section 7. The last column says which numbered module exercise a problem belongs to.
+- **Solutions.** Purcell and Morin problems are solved in its Chapter 12; use them after a real attempt. Riley's odd-numbered exercises have worked solutions in the separate manual. Griffiths and Jackson have none in the book.
+- **Corrections made while pinning.** Module 21: Thomson scattering is Jackson 14.8 (14.7 is undulators) and the virtual-quanta method is 15.4. Module 20: the Liénard-Wiechert potentials are in Griffiths 10.3, not chapter 11. Module 06: the hemispheres section does exist (Jackson 2.7); Problem 3.1 is the concentric variant. Module 08: Problem 3.23 is the Green function of a grounded cylindrical box; 3.17 and 3.19 are the planes. Module 18: the stress-tensor problems are 12.18 and 12.19 (12.11 and 12.12 are BMT spin problems). Module 02: four sessions (three of work, one spare), and the reading-map task is gone.
 
 ## 3. The problem-solving routine (the five steps)
 
@@ -82,7 +91,7 @@ Modules marked ★★★ are the ones that justify the whole exercise: **Module 
 
 ## 6. Module list
 
-| # | Module | Jackson (3rd ed., verify) | Griffiths / Purcell | Weeks | Thread |
+| # | Module | Jackson (3rd ed., verified) | Griffiths / Purcell | Weeks | Thread |
 | --- | --- | --- | --- | --- | --- |
 | 01 | Stewart calculus refresher (in progress) | none | Stewart 7.1, 7.8, 11.9 to 11.10, 13, 14, 15.7 to 15.8, 16 | 1 left | prelude |
 | 02 | Math patch: deltas, contours, Fourier, index notation | none | Boas or Arfken | 2 | A |
@@ -92,20 +101,20 @@ Modules marked ★★★ are the ones that justify the whole exercise: **Module 
 | 06 | Separation of variables and orthogonal functions | 2.7 to 2.10, 3.1 to 3.3 | G 3.3 | 3 | A |
 | 07 | Spherical harmonics and Green function expansions (★★) | 3.5 to 3.6, 3.9 to 3.10 | G 3.4 | 3 | A |
 | 08 | Cylindrical, eigenfunction expansions, multipoles | 3.7 to 3.8, 3.11 to 3.12, 4.1 to 4.2 | G 3.4 | 2 | A |
-| 09 | Magnetostatics | 5.1 to 5.6, 5.15 to 5.16 | G 5; P 6 | 3 | |
+| 09 | Magnetostatics | 5.1 to 5.6, 5.15 to 5.16 | G 5; P 5 to 6 | 3 | |
 | 10 | Faraday, Maxwell, potentials, gauge (★) | 5.15, 6.1 to 6.3 | G 7, 10.1; P 7, 9 | 2 | C |
 | 11 | Wave-equation Green functions (★★★) | 6.4 to 6.5 | G 10.2 | 3 | A |
 | 12 | Conservation laws, Poynting, stress tensor, plane waves | 6.7, 6.10, 7.1 to 7.2 | G 8, 9 | 3 | C |
-| 13 | Special relativity: kinematics | 11.1 to 11.5 | G 12.1 to 12.2; P 5 | 2 | B |
+| 13 | Special relativity: kinematics | 11.1 to 11.5 | G 12.1 to 12.2; P 5, App. G | 2 | B |
 | 14 | Spacetime structure and the Lorentz algebra (★) | 11.6 to 11.7 | none | 2 | B |
 | 15 | Covariant electrodynamics (★) | 11.9 to 11.10 | G 12.3; P 5 | 2 | B |
 | 16 | Relativistic particle dynamics and minimal coupling | 12.1 to 12.3 | none | 2 | C |
 | 17 | The field Lagrangian and the Proca field (★★★) | 12.7 to 12.8 | none | 3 | C |
 | 18 | Stress tensors and covariant Green functions (★) | 12.10 to 12.11 | none | 2 | A, C |
 | 19 | Causality, analyticity and dispersion relations (★) | 7.8 to 7.10 | G 9.4 | 2 | A |
-| 20 | Dipole radiation and Lienard-Wiechert (★) | 9.1 to 9.3, 14.1 | G 11 | 3 | A |
-| 21 | Larmor, Thomson, virtual quanta | 14.2 to 14.4, 14.7 to 14.8 | G 11 | 2 | |
-| 22 | Synchrotron radiation and radiation reaction | 14.5 to 14.6, 16.1 to 16.3 | G 11.2 | 3 | |
+| 20 | Dipole radiation and Lienard-Wiechert (★) | 9.1 to 9.3, 14.1 | G 10.3, 11.1 | 3 | A |
+| 21 | Larmor, Thomson, virtual quanta | 14.2 to 14.4, 14.8, 15.4 | G 11.2 | 2 | |
+| 22 | Synchrotron radiation and radiation reaction | 14.5 to 14.6, 16.1 to 16.3 | G 11.3 | 3 | |
 | 23 | Synthesis, mini-projects and mock exam | all | none | 3 | |
 | 99 | Appendix | | | | |
 

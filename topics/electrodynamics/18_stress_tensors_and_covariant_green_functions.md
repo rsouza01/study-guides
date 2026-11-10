@@ -1,7 +1,8 @@
 # Module 18: Stress tensors and covariant Green functions (★)
 
-**Books:** Jackson **12.10** (canonical and symmetric stress tensors; conservation laws) and **12.11** (solution of the wave equation in covariant form: invariant Green functions); your mechanics guide, Modules 18 and 19 (the stress-energy tensor and Noether's theorem: read them side by side with this module). Gaussian units; **note the sign convention for $\Box$ changes**: Jackson's chapter 6 uses $\Box=\nabla^2-\frac{1}{c^2}\partial_t^2$, while chapter 12 uses $\Box=\partial_\mu\partial^\mu=\frac{1}{c^2}\partial_t^2-\nabla^2$.
+**Books:** Jackson **12.10 Canonical and symmetric stress tensors; conservation laws (pp. 605 to 612)** and **12.11 Solution of the wave equation in covariant form: invariant Green functions (pp. 612 to 615)**; Griffiths §8.2.2 (pp. 368 to 372) for the three-dimensional stress tensor; your mechanics guide, Modules 18 and 19, side by side. Gaussian units; **the sign of the box changes**: Jackson chapter 6 uses $\Box=\nabla^2-\frac1{c^2}\partial_t^2$, chapter 12 uses $\Box=\partial_\mu\partial^\mu=\frac1{c^2}\partial_t^2-\nabla^2$.
 **Time:** 2 weeks (four sessions).
+**Pinned to:** Griffiths 5th ed. (2024), Jackson 3rd ed. (1999), Purcell and Morin 3rd ed. (2013, SI), Riley, Hobson and Bence 3rd ed. Page numbers are the printed book pages.
 
 ## Why this matters
 
@@ -37,18 +38,29 @@ Modules 11, 15, 17; mechanics guide Modules 18 and 19.
 
 **Constructing $T^{\mu\nu}$ from $\mathcal L$:** (1) compute $\frac{\partial\mathcal L}{\partial(\partial_\mu\phi_a)}$ for each field component; (2) $T^{\mu\nu}=\sum_a\frac{\partial\mathcal L}{\partial(\partial_\mu\phi_a)}\partial^\nu\phi_a-g^{\mu\nu}\mathcal L$; (3) check conservation on the field equations; (4) test symmetry and gauge invariance; (5) improve with a total divergence if needed and verify the charges are unchanged.
 
-## Reading plan
+## Reading plan (pinned to your editions)
 
-| Session | Task |
-| --- | --- |
-| A1 | Jackson 12.10; derive $T^{\mu\nu}_{\rm can}$ for EM |
-| B1 | Exercises 1 to 3 |
-| A2 | The Belinfante term; mechanics Module 19 side by side |
-| B2 | Exercises 4 to 6 and 9 |
-| A3 | Jackson 12.11; the invariant Green function |
-| B3 | Exercises 7 and 8 |
-| A4 | **Jackson targets** (exercise 10) |
-| B4 | Spare session |
+A session is part A (read, derive) followed by part B (exercises), about two and a half hours in all. Page numbers are the printed ones.
+
+| Session | A: read and derive | B: do | Done when |
+| --- | --- | --- | --- |
+| 1 | Jackson 12.10 (pp. 605 to 612). Derive $T^{\mu\nu}_{\rm can}$ for the field. | Module exercises 1 to 3. Jackson Problem 12.18. | Canonical tensor not symmetric, not gauge invariant. |
+| 2 | The Belinfante term; mechanics Module 19 side by side. | Module exercises 4 to 6 and 9. Jackson Problem 12.19. | Symmetrization derived. |
+| 3 | Jackson 12.11 (pp. 612 to 615). The invariant Green function. | Module exercises 7 and 8. Griffiths Problem 12.76. | $\delta(x^2)$ form of the retarded function. |
+| 4 | **Jackson targets**: Problems 12.18 and 12.19. | Spare. | Four-dimensional divergence theorem argument complete. |
+
+## Problem set (pinned)
+
+**Pin status:** Pinned: sections and problems in Jackson and Griffiths (verified). This corrects exercise 10: Problems 12.11 and 12.12 are the BMT spin problems; the stress-tensor problems are 12.18 and 12.19.
+
+Tiers: **Must** (do all), **Should** (do when time allows), **Could** (only if the module is going well). A dash in the exercise column means the problem supports the reading rather than a module exercise. Purcell and Morin: stars give difficulty; problems are solved in Chapter 12 (the exercises are not).
+
+| Book | Problem | What it asks | Module exercise | Tier |
+| --- | --- | --- | --- | --- |
+| Jackson | 12.18 | conservation law by the 4D divergence theorem | 10 | Must |
+| Jackson | 12.19 | source-free fields in a localized region | 10 | Must |
+| Jackson | 12.14 | alternative Lagrangian density | 1 | Could |
+| Griffiths | 12.76 | generalize relativistic electrodynamics to magnetic charge | 7 | Could |
 
 ## Derive from scratch
 
@@ -69,7 +81,7 @@ Modules 11, 15, 17; mechanics guide Modules 18 and 19.
 7. **Invariant Green function:** use $\delta(x_0^2-R^2)=\frac{\delta(x_0-R)+\delta(x_0+R)}{2R}$ to show $\frac{1}{2\pi}\theta(x^0)\delta(x^2)=\frac{\delta(x^0-R)}{4\pi R}$, i.e. $D_r=\frac{G_{\rm ret}}{4\pi}$ (with $G_{\rm ret}$ of Module 11, in units $x^0=ct$).
 8. **Preview of Lienard-Wiechert:** for a point charge $J^\alpha(x')=qc\int d\tau'\,u^\alpha(\tau')\delta^{(4)}(x'-z(\tau'))$. Insert it in $A^\alpha(x)=\frac{4\pi}{c}\int D_r(x-x')J^\alpha(x')d^4x'$ and do the $x'$ integral to get $A^\alpha(x)=2q\int d\tau'\,u^\alpha(\tau')\,\theta\left(x^0-z^0(\tau')\right)\delta\left[(x-z(\tau'))^2\right]$; evaluate the $\tau'$ integral with the Jacobian $\frac{d}{d\tau'}(x-z)^2=-2u\cdot(x-z)$ to get $A^\alpha=\frac{q\,u^\alpha}{u\cdot(x-z)}$ at the retarded proper time (the full derivation is Module 20).
 9. **Belinfante for angular momentum:** show that with $T^{\mu\nu}_{\rm can}$ the orbital $M^{\lambda\mu\nu}=x^\mu T^{\lambda\nu}-x^\nu T^{\lambda\mu}$ is conserved only if $T^{\mu\nu}$ is symmetric (compute $\partial_\lambda M^{\lambda\mu\nu}=T^{\mu\nu}-T^{\nu\mu}$) and identify the missing *spin* part for the vector field.
-10. **Jackson targets (about 12.11 and 12.12):** a stress tensor and conservation-law problem (exercises 3 to 5), and a covariant Green function problem (exercise 7). *If your mechanics guide is running, write the two-line dictionary between Goldstein 13.3 and this section.*
+10. **Jackson targets (12.18 and 12.19):** a stress tensor and conservation-law problem (exercises 3 to 5), and a covariant Green function problem (exercise 7). *If your mechanics guide is running, write the two-line dictionary between Goldstein 13.3 and this section.*
 
 ## Pitfalls
 

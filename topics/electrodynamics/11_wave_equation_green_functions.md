@@ -1,7 +1,8 @@
 # Module 11: Green functions for the wave equation (★★★: the most important module)
 
-**Books:** Jackson **6.4** (Green functions for the wave equation) and **6.5** (retarded solutions for the fields: Jefimenko); Griffiths 10.2 (retarded potentials, Jefimenko's equations) and 10.3 (point charges); Barton, *Elements of Green's Functions and Propagation* (strongly recommended, precisely targeted at this goal); Module 02 (contour integrals) is the prerequisite.
+**Books:** Jackson **6.4 Green Functions for the Wave Equation (pp. 243 to 246)** and **6.5 Retarded solutions, Jefimenko (pp. 246 to 248)**; Griffiths §10.2.1 Retarded potentials (pp. 450 to 454), §10.2.2 Jefimenko's equations (pp. 454 to 456), §10.3 point charges (pp. 456 to 468); Riley §15.2 (p. 503) and §17.5 (p. 569) for Green functions of ordinary differential equations, §13.1 for the Fourier transform; Barton, *Elements of Green's Functions and Propagation* (strongly recommended); the complex analysis guide CA08 and CA09 is the prerequisite.
 **Time:** 3 weeks (six sessions). **The single most important week of the whole guide lives here.** Protect it at the expense of anything else.
+**Pinned to:** Griffiths 5th ed. (2024), Jackson 3rd ed. (1999), Purcell and Morin 3rd ed. (2013, SI), Riley, Hobson and Bence 3rd ed. Page numbers are the printed book pages.
 
 ## Why this matters
 
@@ -38,20 +39,35 @@ Modules 02 (contours, $\pm i\epsilon$), 05 (Green functions), 10 (Lorenz gauge: 
 
 **Retarded Green function from the contour:** (1) Fourier transform to $\tilde G=\frac{4\pi}{k^2-\omega^2/c^2}$; (2) locate the poles $\omega=\pm ck$ and choose the contour for the boundary condition ($+i\epsilon$ for retarded); (3) for each sign of $\tau$ close the contour where $e^{-i\omega\tau}$ decays; (4) sum residues; (5) do the $\mathbf k$-integral with the angular average $\int d\Omega\,e^{i\mathbf k\cdot\mathbf R}=4\pi\frac{\sin kR}{kR}$ and the identity $\int_0^\infty\sin kR\sin ck\tau\,dk=\frac\pi2[\delta(R-c\tau)-\delta(R+c\tau)]$; (6) check support (causality) and the static limit.
 
-## Reading plan
+## Reading plan (pinned to your editions)
 
-| Session | Task |
-| --- | --- |
-| A1 | Jackson 6.4 (first read); Barton on $G_{\rm ret}$/$G_{\rm adv}$; Griffiths 10.2 |
-| B1 | Exercises 1 and 2 |
-| A2 | Re-derive the $\omega$-contour by hand with the method card |
-| B2 | Exercises 3 and 4 |
-| A3 | Jackson 6.5; the invariant form; Jefimenko |
-| B3 | Exercises 5 to 7 |
-| A4 | The Feynman contour; exercises 8 and 9 |
-| B4 | **Jackson targets** (exercise 10) |
-| A5 | The blank-page gate and the computational task |
-| B5 | Spare session; redo the gate until it takes 20 minutes |
+A session is part A (read, derive) followed by part B (exercises), about two and a half hours in all. Page numbers are the printed ones.
+
+| Session | A: read and derive | B: do | Done when |
+| --- | --- | --- | --- |
+| 1 | Jackson 6.4 (pp. 243 to 246), first read. Griffiths §10.2.1 (pp. 450 to 454). | Module exercises 1 and 2. Riley Exercises 15.29 and 15.31 (Green functions of a driven oscillator). | The ODE route for each k reproduced. |
+| 2 | Re-derive the $\omega$-contour by hand with the method card (CA08, CA09). | Module exercises 3 and 4. Griffiths Problem 10.10 (retarded potentials satisfy the Lorenz condition). | Retarded Green function from a closed contour, no notes. |
+| 3 | Jackson 6.5 (pp. 246 to 248). Griffiths §10.2.2 (pp. 454 to 456). | Module exercises 5 to 7. Griffiths Problems 10.15 and 10.7. | Jefimenko field of a time-dependent point charge derived. |
+| 4 | The Feynman contour. Riley Exercise 21.27 (Green function of the Klein-Gordon equation). | Module exercises 8 and 9. **Jackson targets:** Problem 6.1. | Table of retarded, advanced, Feynman filled in from memory. |
+| 5 | Blank-page gate and the computational task. | Spare; repeat the gate until it takes 20 minutes. Optional: Griffiths Problems 10.12, 10.13. | Gate in 20 minutes. |
+
+## Problem set (pinned)
+
+**Pin status:** Pinned: sections and problems in Griffiths, Jackson and Riley (verified).
+
+Tiers: **Must** (do all), **Should** (do when time allows), **Could** (only if the module is going well). A dash in the exercise column means the problem supports the reading rather than a module exercise. Purcell and Morin: stars give difficulty; problems are solved in Chapter 12 (the exercises are not).
+
+| Book | Problem | What it asks | Module exercise | Tier |
+| --- | --- | --- | --- | --- |
+| Griffiths | 10.10 | retarded potentials satisfy the Lorenz condition | 3 | Must |
+| Griffiths | 10.15 | fields of Ex. 10.2 from Jefimenko | 6 | Must |
+| Riley | 21.27 | Green function of the Klein-Gordon equation in a half-space | 8 | Must |
+| Jackson | 6.1 | wave-equation Green functions in lower dimensions | 10 | Must |
+| Griffiths | 10.7 | time-dependent point charge at the origin | 6 | Should |
+| Riley | 15.29 | driven damped oscillator, Green function | 1 | Should |
+| Riley | 15.31 | Green function G(t, t0) | 1 | Should |
+| Griffiths | 10.12 | wire loop with changing current | 6 | Could |
+| Griffiths | 10.13 | constant J, changing rho: Jefimenko | 6 | Could |
 
 ## Derive from scratch
 
