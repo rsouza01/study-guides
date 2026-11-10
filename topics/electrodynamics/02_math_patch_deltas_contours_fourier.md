@@ -1,8 +1,11 @@
 # Module 02: Math patch: delta functions, Fourier transforms, index notation
 
 **Books:** Griffiths §1.5 The Dirac Delta Function (pp. 43 to 50: 1.5.1 the divergence of $\hat r/r^2$, 1.5.2 the one-dimensional delta, 1.5.3 the three-dimensional delta); Jackson §1.2 Electric Field (p. 24, the delta-function treatment of point charges); Riley §13.1 Fourier transforms (pp. 433 to 453: the Dirac $\delta$-function, its relation to Fourier transforms, convolution, Parseval, Fourier transforms in higher dimensions), Chapter 12 Fourier series (pp. 415 to 426: 12.1 to 12.3 and 12.7), Chapter 26 tensors for index notation (§26.1 notation, §26.3 Cartesian tensors, §26.8 the tensors $\delta_{ij}$ and $\epsilon_{ijk}$, pp. 928 to 944), and for the ODE kit §15.1 (p. 492) and §17.4 Sturm-Liouville (p. 564). Stewart is not enough here.
+
 **Time:** 2 weeks (four sessions: three of work and one spare, now that the contour integrals live in the complex analysis guide). A session is a part A (read, derive) followed by a part B (exercises).
+
 **Pinned to:** Griffiths 5th ed. (2024), Jackson 3rd ed. (1999), Purcell and Morin 3rd ed. (2013, SI), Riley, Hobson and Bence 3rd ed. Page numbers are the printed book pages.
+
 **Moved out:** contour integration (Cauchy's theorem, residues, Jordan's lemma, closing contours, the $\pm i\epsilon$ prescription, the principal value and the Sokhotski formula) is no longer part of this module. It is taught in the complex analysis guide (CA04 to CA09) and is first needed in Module 11.
 
 ## Why this matters
