@@ -186,7 +186,10 @@ The numbers 6 to 8 are kept on purpose, so that references to exercises 9 and 10
 
 1. **Delta of a function:** $\delta(x^2-a^2)=\frac{\delta(x-a)+\delta(x+a)}{2|a|}$; $\int_0^{2\pi}f(x)\delta(\cos x)dx=f(\tfrac\pi2)+f(\tfrac{3\pi}2)$.
 2. **Spherical delta:** check $\int\delta^3(\mathbf x-\mathbf x')d^3x=1$ using $d^3x=r^2dr\,d\cos\theta\,d\phi$ and the spherical form above.
-3. **$\nabla^2(1/r)$:** $\nabla\frac1r=-\frac{\hat{\mathbf r}}{r^2}$; the flux through a sphere is $-4\pi$ for any radius, so $\nabla^2\frac1r=-4\pi\delta^3(\mathbf r)$.
+3. **$\nabla^2(1/r)$:** Show that ∇²(1/r) = −4π δ³(r). Hints:
+* ∇(1/r) = −r̂ / r², where r̂ is the unit vector pointing away from the origin.
+* The flux of that field through a sphere centred at the origin is −4π, for any radius.
+* From these two facts, conclude that ∇²(1/r) = −4π δ³(r)..
 4. **Point and moving charges:** write $\rho$ and $\mathbf J$ for a charge $q$ on the trajectory $\mathbf r(t)$ ($\mathbf J=q\mathbf v\,\delta^3(\mathbf x-\mathbf r(t))$) and show $\partial_t\rho+\nabla\cdot\mathbf J=0$.
 5. **Fourier transform of a Gaussian:** $\int e^{-ax^2}e^{-ikx}dx=\sqrt{\frac\pi a}e^{-k^2/4a}$.
 6. to 8. **Moved to the complex analysis guide.** Old exercise 6 (the integral $\int\frac{e^{ikx}}{k^2+m^2}dk$) is CA08 exercise 2, which is the same integral with $\cos kx$. Old exercise 7 (the real-axis poles with $\pm i\epsilon$) is CA08 exercise 6. Old exercise 8 (Sokhotski) is CA09 exercise 6.
