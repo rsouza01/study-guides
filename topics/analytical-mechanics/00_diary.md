@@ -1,7 +1,9 @@
 # Study Diary
 
 ## 12-11-2026
-* Exercises 13 and 14 [01_block_a_check_exercises.md](topics/analytical-mechanics/exercises/01_block_a_check_exercises.md)
+* Exercises 13 and 14 [01_block_a_check_exercises.md]([topics/analytical-mechanics/exercises/](https://github.com/rsouza01/study-guides/blob/main/topics/analytical-mechanics/)01_block_a_check_exercises.md)
 
 ## 13-11-2026
-* Block B: Taylor series and exact differentials [01_prerequisites_and_toolkit.md](topics/analytical-mechanics/01_prerequisites_and_toolkit.md#block-b-taylor-series-and-exact-differentials)
+* Block B: Taylor series and exact differentials [01_prerequisites_and_toolkit.md]([topics/analytical-mechanics/01_prerequisites_and_toolkit.md](https://github.com/rsouza01/study-guides/blob/main/topics/analytical-mechanics/01_prerequisites_and_toolkit.md)#block-b-taylor-series-and-exact-differentials)
+
+
