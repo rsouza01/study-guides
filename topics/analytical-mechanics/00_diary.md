@@ -7,3 +7,5 @@
 * Block B: Taylor series and exact differentials [01_prerequisites_and_toolkit.md]([topics/analytical-mechanics/01_prerequisites_and_toolkit.md](https://github.com/rsouza01/study-guides/blob/main/topics/analytical-mechanics/01_prerequisites_and_toolkit.md)#block-b-taylor-series-and-exact-differentials)
 
 
+## 15-11-2026
+* Block B: Exercises on Taylor series with multiple variables from Boas. Got everything wrong in the beginning due to some confusion on notation.
