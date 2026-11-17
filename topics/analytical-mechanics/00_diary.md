@@ -11,3 +11,6 @@
 
 ## 16-11-2026
 * Block B: restarted the Maclaurin series of cos x sinh y from scratch. Key points: the power belongs to the operator, not to the first derivatives; evaluate at (0,0) only at the end; use h, k for the displacement. Expanded with the binomial theorem; n = 0 term done. Next: n = 1 to 3.
+
+## 17-11-2026
+* Block B: Part 1 (Afternoon): Finished the Maclaurin series of $\cos x\,\sinh y$ with the operator formula through $n=3$ and matched the result against the known series.
