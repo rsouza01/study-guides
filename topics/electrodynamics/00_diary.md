@@ -29,7 +29,7 @@
 - Set up the Markdown-to-PDF script (pandoc + XeLaTeX) in the gist.
 
 
-## 2026-11-18 (Wed): EM Module 02, exercise 3 done
+## 2026-11-19 (Thu): EM Module 02, exercise 3 done
 
 **Done**
 - Finished exercise 3: ∇²(1/r) = −4π δ³(r).
@@ -49,3 +49,25 @@
 - Exercise 4 (point and moving charges, continuity equation), then 5, 9 and 10.
 - Alternate with analytical mechanics.
 
+
+## 2026-11-22 (Sun): EM Module 02, Session 2 reading and Jackson 1.3(a)
+
+**Done**
+- Session 2, part A: Jackson §1.2 (p. 24) read and re-derived.
+- Jackson Problem 1.3(a): spherical shell of radius R and total charge Q, ρ(r) = Q δ(r − R) / (4π R²). The check is that integrating over all space gives Q.
+
+**Decisions**
+- The EM guide is now in the new layout: the study file says what to read and where, and the exercises live in `exercises/`. Module 02 is the test module.
+- Considering merging the book problems and the module exercises into one list per session. I'll try it and decide.
+
+**Still open (Session 2, part B)**
+- Exercise 3: the two additions to my page (δ³(r) notation, and the arbitrary-radius line plus the case where V does not contain the origin).
+- Exercise 4: point and moving charges, continuity equation.
+- Jackson 1.3 (b) to (d). Should: Griffiths 1.48 and 1.64. Could: Griffiths 1.49 and Jackson 1.2.
+
+**Note**
+- The reading and the exercises left me energized. Stopping at midnight with energy left is a good way to end.
+
+**Next**
+- Finish Session 2 part B, then Session 3 (Fourier and index notation).
+- Once the Module 02 layout is confirmed, refactor Modules 03 to 22.
