@@ -71,3 +71,39 @@
 **Next**
 - Finish Session 2 part B, then Session 3 (Fourier and index notation).
 - Once the Module 02 layout is confirmed, refactor Modules 03 to 22.
+
+
+## 2026-11-23 (Mon): EM Module 02, Session 2, Jackson 1.3 (b) and (c)
+
+**Done**
+- Jackson 1.3(b): charge λ per unit length on a cylindrical surface of radius b. ρ = λ/(2πb) · δ(r − b).
+- Jackson 1.3(c): flat disc of radius R, total charge Q. ρ = Q/(πR²) · δ(z) · Θ(R − r).
+
+**Method that worked**
+- Fix the shape of ρ first (a delta where the charge sits, a step where it fills a range), leave one unknown constant C, then integrate over the whole charge distribution (with the r from the volume element) and set the result to the known total. Solve for C.
+- The cross-check is that C equals the surface or linear density, and the units come out as charge per volume.
+
+**Doubts cleared**
+- λ is charge per unit length, not per area. σ is per area, ρ per volume. A surface density becomes a volume density by multiplying by a delta, which supplies the missing 1/length.
+- δ(r − b) has units of 1/length, so it is a unit check on any answer.
+- A step function Θ is not like a delta. It does not pick a value, it only changes the limits of the integral, so I still have to do the integral. Θ′ = δ.
+
+**Mistakes caught on my page**
+- The 4πR² (a sphere) used for the disc's area. It should be πR².
+- ∫₀ᴿ r dr = R²/2, not R.
+- The step pointed outward: Θ(x − R) instead of Θ(R − r). Also x in place of r.
+- Having both C and σ in ρ, instead of letting C be the only unknown.
+
+**Still open (Session 2, part B)**
+- Jackson 1.3(d): the same disc in spherical coordinates. Which angle the disc sits at, and the 1/r² and delta in cos θ.
+- Exercise 3: the two additions (δ³(r) notation, arbitrary radius and V without the origin).
+- Exercise 4: point and moving charges, continuity equation.
+- Should: Griffiths 1.48 and 1.64. Could: Griffiths 1.49 and Jackson 1.2.
+
+**Note**
+- This was a long day (up for 18 hours, work and gym), and I stopped at half past midnight, after finishing (c). Leave (d) for a fresh head.
+
+**Next**
+- Finish Session 2 part B, then Session 3 (Fourier and index notation).
+- Decide whether to merge the book problems and module exercises into one list per session.
+- Once the Module 02 layout is confirmed, refactor Modules 03 to 22.
