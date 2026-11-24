@@ -107,3 +107,32 @@
 - Finish Session 2 part B, then Session 3 (Fourier and index notation).
 - Decide whether to merge the book problems and module exercises into one list per session.
 - Once the Module 02 layout is confirmed, refactor Modules 03 to 22.
+
+
+## 2026-11-24 (Tue): EM Module 02, Session 2, Jackson 1.3(d) and exercise 3
+
+**Done**
+- Jackson 1.3(d): the flat disc of radius R in spherical coordinates. ρ = Q/(πR²) · δ(θ − π/2)/r · Θ(R − r).
+  - Same density as in (c): z = r cos θ, so δ(z) becomes δ(θ − π/2)/r.
+  - Jackson 1.3 is now complete, (a) to (d).
+- Exercise 3 (∇²(1/r) = −4π δ³(r)): steps 1 and 2 redone for the cleaned-up version of my page (the arbitrary-radius flux). Step 3 onward still to finish.
+
+**Insights**
+- The volume element depends on the coordinate system: r dr dφ dz in cylindrical, r² sin θ dr dθ dφ in spherical. I started (d) with the cylindrical one by mistake.
+- A delta in an angle is not a delta in a length. A step dθ at radius r covers a distance r dθ, so the slab thickness grows with r. The delta needs a 1/r (the scale factor of θ) to give a uniform surface density. Machado vol. 1 shows the same thing with scale factors: 1/r for θ and 1/(r sin θ) for φ.
+- Checking units and total charge catches most errors.
+
+**Doubts**
+- (d) is not fully clear yet. I understand the slab picture and the 1/r, but it still feels like I missed a lecture. Revisit later.
+- Drill for next time: write the same disc density in cylindrical and in spherical coordinates and check by hand that they agree.
+
+**Still open (Session 2, part B)**
+- Exercise 3: steps 3 to 6 (the case where V does not contain the origin, δ³(r) notation, conclusion).
+- Exercise 4: point and moving charges, continuity equation.
+- Should: Griffiths 1.48 and 1.64. Could: Griffiths 1.49 and Jackson 1.2.
+
+**Next**
+- Back to analytical mechanics tomorrow.
+- Next EM session: finish exercise 3, then exercise 4, then Session 3.
+- Decide whether to merge the book problems and the module exercises into one list per session.
+- Once the Module 02 layout is confirmed, refactor Modules 03 to 22.
