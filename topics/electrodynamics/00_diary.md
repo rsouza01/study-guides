@@ -136,3 +136,33 @@
 - Next EM session: finish exercise 3, then exercise 4, then Session 3.
 - Decide whether to merge the book problems and the module exercises into one list per session.
 - Once the Module 02 layout is confirmed, refactor Modules 03 to 22.
+
+## 2026-11-25 (Wed): EM Module 02, Session 2, exercise 3, steps 3 to 5
+
+**Done**
+- Exercise 3, step 3: ∇·F = 0 for r ≠ 0, with F = −r̂/r².
+- Exercise 3, step 4: the flux of F through any closed surface is −4π if it encloses the origin, and 0 if it does not.
+  - Origin inside: a small sphere S₁ around the origin; the region between S₁ and the outer surface S₂ has ∇·F = 0, so Φ(S₂) − Φ(S₁) = 0 and Φ(S₂) = −4π. It works for any closed S₂, not only a sphere.
+  - Origin outside: F is smooth in V, so the divergence theorem applies directly and the flux is 0.
+- Exercise 3, step 5: ∫_V (−4π δ³) dV = 0 (origin outside V) and −4π (origin inside), by the sifting property.
+
+**Insights**
+- My first result was ∇·F = 2/r³. That was only the radial derivative: r̂ is not a constant vector, so ∇·(f r̂) = f′ + f ∇·r̂, with ∇·r̂ = 2/r. The two terms cancel for f = −1/r².
+- The route I chose: write F = −r⃗/r³ in Cartesian components (r² = r⃗·r⃗ = x² + y² + z², ∂_x r = x/r) and take the divergence there. No coordinate-dependent unit vectors.
+- Choosing coordinates: use the symmetry for integrating (spherical for the flux), and Cartesian for differentiating vectors. Scalars switch freely; vectors carry their basis vectors.
+- Derivation of the radial divergence from a thin shell of flux: ∇·F = (1/r²) d(r²F)/dr. I wanted to see it once. The full spherical ∇ gets derived in Modules 06 and 07.
+- The −4π δ³ is deduced, not put in by hand: step 4 gives measured integrals, and δ is the object with exactly that property. Historically, Dirac introduced it as a notation (1920s), and Schwartz's distributions (1940s) made it rigorous.
+
+**Fixes for my write-up**
+- Write n̂ (the outward normal), not r̂, in the flux through a general surface S₂.
+- Write δ³(r) and the arbitrary-radius line.
+
+**Still open (Session 2, part B)**
+- Exercise 3, step 6: conclude that ∇·(∇(1/r)) = −4π δ³(r), using that the integrals agree for every V.
+- Exercise 4: point and moving charges, continuity equation.
+- Should: Griffiths 1.48 and 1.64. Could: Griffiths 1.49 and Jackson 1.2.
+- Revisit Jackson 1.3(d) (the disc in spherical coordinates) later.
+
+**Next**
+- Back to analytical mechanics tomorrow.
+- Next EM session (or next week, after AM): finish step 6, then exercise 4.
