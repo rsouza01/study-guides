@@ -19,3 +19,11 @@
 * Lesson: assemble the final series from a list of all terms, including the n = 1 ones, and run the product-series check before moving on.
 * Next: Block B exercises 2 and 3 (ln(1+x+y), and the potential V with a minimum at (1,0)).
 
+## 26-11-2026
+* Block B exercise 2: Taylor series of ln(1+x+y) to second order, checked against the one-variable series of ln(1+s) with s = x + y.
+* Block B exercise 3: potential V with a stationary point at (1,0).
+  * (a) the gradient vanishes at (1,0).
+  * (b) expansion to second order about (1,0): V ≈ -1/4 + (x-1)^2 + (3/2) y^2, in displacements h = x-1 and k = y.
+* Lesson: this is not a Maclaurin series. The expansion point is (1,0), so h = x-1 and k = y, and the derivatives are evaluated at (1,0). In a Maclaurin series h = x and k = y, which is why the two are easy to mix up.
+* Concept: a stationary point has zero gradient, so the first-order terms vanish. The second-derivative matrix then decides whether it is a minimum, maximum or saddle (Module 06 uses this for small oscillations).
+* Next: finish exercise 3 with the matrix of second derivatives and its eigenvalues. Then Block B exercises 4 to 6 (exact differentials).
