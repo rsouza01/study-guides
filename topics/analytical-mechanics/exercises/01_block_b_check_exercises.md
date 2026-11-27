@@ -19,6 +19,7 @@ Self-check for Block B (Taylor series in several variables and exact differentia
    - Show that $`(1,0)`$ is a stationary point.
    - Expand $`V`$ to second order about $`(1,0)`$.
    - Write the matrix of second derivatives at that point. This is the matrix that gives small-oscillation frequencies in Module 06.
+   - Find the eigenvalues of that matrix and decide whether $`(1,0)`$ is a minimum, a maximum or a saddle point.
 
 ## Exact differentials
 
