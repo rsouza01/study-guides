@@ -1,5 +1,8 @@
 # Fundamental Astronomy, Chapters 4–5, Computationally
 
+![UBVRI](UBVRI.jpg)
+
+
 Photometric concepts, magnitudes and radiation mechanisms, learned by writing Python.
 
 - **Source:** H. Karttunen et al. (eds.), *Fundamental Astronomy*, 6th ed., Springer 2017.
